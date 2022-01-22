@@ -1,0 +1,30 @@
+* {
+  background: linear-gradient(163.3deg, #A8C1ED 11.54%, #F3C1EB 90.45%);
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+.navigation {
+  height: 77px;
+  background-color: #fcddec solid;
+  color: #5b4d8c;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #5b4d8c bold;
+  font-size: 18;
+}
+
+card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 120px;
+  position: absolute;
+  width: 259px;
+  height: 262px;
+  left: 52px;
+  top: 1037px;
+  border: 5px solid #FCDDEC;
+  box-sizing: border-box;
+}

@@ -4,23 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfoldo</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
+
     <nav class="navigation">
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="#projects" class="projects">Projects</a>
+        <a href="#about" class="about">About</a>
+        <a href="#contact" class="contact">Contact</a>
     </nav>
 
-    <h1>Olivia Buckland</h1>
-    <h2>Software Developer</h2>
+    <header class="header">
+        <div class="intro">
+        <h1 class="intro__heading">Olivia Buckland</h1>
+        <h2 class="intro__sub-heading">Software Developer</h2>
+        <a href="projects" class="intro__button button">View my work</a>
+    </div>
+    </header>
+
+    <main>
 
     <h3 id="projects">Projects</h3>
 
-    <div class="box"> 
+    <div class="card"> 
+        <span class="card__img"></span>
+        <div class="card__title">
+
+        </div>
         <h4>Project 1</h4>
-        <img src="./images/computer.jpeg" alt="Project 1">
+        <img src="./images/image1.jpg" alt="Project 1">
         <h4>Project name</h4>
         <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare id pulvinar amet turpis consequat.
@@ -53,6 +67,8 @@
         <a href="">Images of languages/ skills
             Link to github and preview</a>
     </div>
+
+</main>
 
     <h3 id="about">About me</h3>
 
