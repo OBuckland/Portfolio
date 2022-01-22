@@ -5,19 +5,27 @@
   background: linear-gradient(163.3deg, #A8C1ED 11.54%, #F3C1EB 90.45%);
 }
 
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 a {
   text-decoration: none;
 }
 
 .navigation {
   height: 77px;
-  background-color: #fcddec solid;
+  background-color: #fcddec;
   color: #5b4d8c;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   color: #5b4d8c bold;
   font-size: 18 bold;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
 
 .card {
