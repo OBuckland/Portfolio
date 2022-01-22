@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins&display=swap");
-* {
+.body {
+  width: fit-content;
+  height: fit-content;
   background: linear-gradient(163.3deg, #A8C1ED 11.54%, #F3C1EB 90.45%);
-  background-repeat: no-repeat;
-  text-decoration: none;
 }
 
 a {
@@ -24,6 +24,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card:hover {
+  background-color: aqua;
 }
 
 .card {
