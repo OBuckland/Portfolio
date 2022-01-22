@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins&display=swap");
 * {
   background: linear-gradient(163.3deg, #A8C1ED 11.54%, #F3C1EB 90.45%);
   background-repeat: no-repeat;
@@ -15,7 +16,7 @@
   font-size: 18;
 }
 
-card {
+.card {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
