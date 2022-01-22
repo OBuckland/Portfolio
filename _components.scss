@@ -6,6 +6,12 @@
     justify-content: flex-end;
     align-items: center;
     color: $colour-secondary bold;
-   font-size: 18;
+   font-size: 18 bold;
    
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

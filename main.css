@@ -5,6 +5,10 @@
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navigation {
   height: 77px;
   background-color: #fcddec solid;
@@ -13,15 +17,16 @@
   justify-content: flex-end;
   align-items: center;
   color: #5b4d8c bold;
-  font-size: 18;
+  font-size: 18 bold;
 }
 
 .card {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 120px;
-  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
   width: 259px;
   height: 262px;
   left: 52px;
