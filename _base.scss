@@ -1,24 +1,25 @@
-
-.body {
-width: fit-content;
-height: fit-content;
-
-background: linear-gradient(163.3deg, #A8C1ED 11.54%, #F3C1EB 90.45%);
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins&display=swap');
+$font-body: "poppins";
+$colour-primary: rgba(252, 221, 236, 1);
+$colour-secondary:rgba(91, 77, 140, 1);
 
 * {
     padding: 0px;
     margin: 0px;
+    color: $colour-secondary;
+    font-family: $font-body;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins&display=swap');
-$font-body: "poppins";
 
-
-$colour-primary: rgba(252, 221, 236, 1);
-$colour-secondary:rgba(91, 77, 140, 1);
 
 a {
     text-decoration: none;
 }
 
+
+.body {
+    width: fit-content;
+    height: fit-content;
+    
+    background: linear-gradient(163.3deg, #A8C1ED 11.54%, #F3C1EB 90.45%);
+    }

@@ -2,15 +2,13 @@
     height: 77px;
     background-color: $colour-primary;
     color: $colour-secondary;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+
     color: $colour-secondary bold;
    font-size: 18 bold;
    box-sizing: border-box;
-   padding: 0px;
-   margin: 0px;
-   
+   position: fixed;
+   top: 0px;
+
 }
 
 .card {

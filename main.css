@@ -1,31 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins&display=swap");
-.body {
-  width: fit-content;
-  height: fit-content;
-  background: linear-gradient(163.3deg, #A8C1ED 11.54%, #F3C1EB 90.45%);
-}
-
 * {
   padding: 0px;
   margin: 0px;
+  color: #5b4d8c;
+  font-family: "poppins";
 }
 
 a {
   text-decoration: none;
 }
 
+.body {
+  width: fit-content;
+  height: fit-content;
+  background: linear-gradient(163.3deg, #A8C1ED 11.54%, #F3C1EB 90.45%);
+}
+
 .navigation {
   height: 77px;
   background-color: #fcddec;
   color: #5b4d8c;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
   color: #5b4d8c bold;
   font-size: 18 bold;
   box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
+  position: fixed;
+  top: 0px;
 }
 
 .card {
