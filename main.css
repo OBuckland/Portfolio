@@ -20,14 +20,16 @@ a {
   height: 77px;
   width: 100%;
   background-color: #fcddec;
-  color: #5b4d8c bold;
-  font-size: 18 bold;
+  color: #5b4d8c;
+  font-size: 18;
   box-sizing: border-box;
   position: fixed;
   justify-items: flex-end;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  text-indent: 50px;
+  font-weight: bold;
 }
 
 .card {
