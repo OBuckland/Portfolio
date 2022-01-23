@@ -32,10 +32,23 @@ a {
   font-weight: bold;
 }
 
-.card {
+.intro {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 24px;
+  width: 333px;
+  height: 259px;
+  left: 20px;
+  top: 260px;
+  position: absolute;
+  display: grid;
+  padding-left: 30px;
+}
+.intro__heading {
+  font-weight: bold;
+}
+
+.card {
+  display: block;
 }
 
 .card:hover {
@@ -51,7 +64,7 @@ a {
   box-sizing: border-box;
 }
 
-@media screen and (min-width 76px) {
+@media screen and (min-width: 176px) {
   main {
     width: 330px;
   }

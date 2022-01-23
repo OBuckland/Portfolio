@@ -12,9 +12,26 @@
     align-items: center;
     text-indent: 50px;
     font-weight: bold;
+    
+}
+
+.intro  {
+    display: flex;
+    font-size: 24px;
+    width: 333px;
+    height: 259px;
+    left: 20px;
+    top: 260px;
+    position: absolute;
+    display: grid;
+    padding-left: 30px;
+
+&__heading {
+        font-weight: bold;
 }
 
 
+}
 
 .card {
     display: flex;
