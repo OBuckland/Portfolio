@@ -18,13 +18,16 @@ a {
 
 .navigation {
   height: 77px;
+  width: 100%;
   background-color: #fcddec;
-  color: #5b4d8c;
   color: #5b4d8c bold;
   font-size: 18 bold;
   box-sizing: border-box;
   position: fixed;
-  top: 0px;
+  justify-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .card {
@@ -44,4 +47,15 @@ a {
   top: 1037px;
   border: 5px solid #FCDDEC;
   box-sizing: border-box;
+}
+
+@media screen and (min-width 76px) {
+  main {
+    width: 330px;
+  }
+}
+@media screen and (min-width: 991px) {
+  main {
+    width: 500px;
+  }
 }
