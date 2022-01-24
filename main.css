@@ -32,27 +32,61 @@ a {
   font-weight: bold;
 }
 
-.intro {
+.header {
   display: flex;
   font-size: 24px;
   width: 333px;
   height: 259px;
-  left: 20px;
-  top: 260px;
-  position: absolute;
-  display: grid;
-  padding-left: 30px;
+  padding-left: 20px;
+  padding-top: 260px;
+  align-content: space-between;
 }
+
 .intro__heading {
   font-weight: bold;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.project-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
-  display: block;
+  display: flex;
 }
 
 .card:hover {
   background-color: aqua;
+}
+
+.box {
+  width: 259px;
+  height: 262px;
+  left: 52px;
+  top: 1037px;
+  border: 5px solid #FCDDEC;
+  box-sizing: border-box;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
