@@ -11,8 +11,6 @@ a {
 }
 
 .body {
-  width: fit-content;
-  height: fit-content;
   background: linear-gradient(163.3deg, #A8C1ED 11.54%, #F3C1EB 90.45%);
 }
 
@@ -49,62 +47,31 @@ a {
 .main {
   display: flex;
   justify-content: center;
-  align-content: center;
-  align-items: center;
-}
-
-.project-heading {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  padding: 30px;
+  margin: 40px;
 }
 
 .project-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  font-weight: bold;
 }
 
 .card {
+  width: 259px;
+  height: 262px;
+  left: 52px;
+  top: 1037px;
+  border: 5px solid #FCDDEC;
+  box-sizing: border-box;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  margin: 40px;
 }
 
 .card:hover {
   background-color: aqua;
-}
-
-.box {
-  width: 259px;
-  height: 262px;
-  left: 52px;
-  top: 1037px;
-  border: 5px solid #FCDDEC;
-  box-sizing: border-box;
-  display: flex;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.card {
-  width: 259px;
-  height: 262px;
-  left: 52px;
-  top: 1037px;
-  border: 5px solid #FCDDEC;
-  box-sizing: border-box;
-}
-
-@media screen and (min-width: 176px) {
-  main {
-    width: 330px;
-  }
-}
-@media screen and (min-width: 991px) {
-  main {
-    width: 500px;
-  }
 }
