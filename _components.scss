@@ -12,6 +12,7 @@
     align-items: center;
     text-indent: 50px;
     font-weight: bold;
+
     }
 
 .header {
@@ -42,10 +43,7 @@
 /*    width: 259px;
     height: 262px;*/
 
-.project-heading{
-  
 
-}
 
 
 .card {
@@ -70,6 +68,7 @@ margin: 50px; */
 .card__img {
     display: block;
     width: 100%;
+    height: 100%;
 }
 
 .card__overlay {
@@ -107,14 +106,39 @@ margin: 50px; */
     transform: translateY(0);
 }
 
-.about-me-page {
+.about {
 
     border: dotted green;
-
+    display: flex;
+    position: relative;
+    border: 5px solid #FCDDEC;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
 }
 
-.info-card {
+.about__card {
+    position: relative;
+    border: 5px solid #FCDDEC;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    
+}
 
+.about__photo {
+    display: flex;
+}
+
+.sub-heading {
+    font-size: 24px;
+    font-weight: bold;
 
 }
 
@@ -124,4 +148,5 @@ margin: 50px; */
     justify-content: space-evenly;
     padding: 20px;
 }
+
 
