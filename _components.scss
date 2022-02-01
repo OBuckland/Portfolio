@@ -3,14 +3,14 @@
     width: 100%;
     background-color: $colour-primary;
     color: $colour-secondary;
-    font-size: 10px;
+    font-size: 14px;
     box-sizing: border-box;
     position: fixed;
     justify-items: flex-end;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    text-indent: 50px;
+    text-indent: 30px;
     font-weight: bold;
 
     }
@@ -37,7 +37,9 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    min-width: 259px;
+    width: 40%;
+    height: 60%;
+
 }
 
 /*    width: 259px;
@@ -53,10 +55,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     margin: 50px;
 
 }
+
+/*Create 1 column instead of the 2 I have for larger screens*/
+
+
 
 /*display: flex;
 justify-content: center;
@@ -163,13 +168,13 @@ margin: 50px; */
     flex-direction: column;
     margin: 5rem; 
  object-fit: contain;
- height: 10px;
+
 
  
 }
 
 .sub-heading {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     justify-content: center;
     display: flex;
