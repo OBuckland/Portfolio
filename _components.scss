@@ -29,7 +29,19 @@
 
     &__heading {
         font-weight: bold;
+        width: 150px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
 } }
+
+
+.sub-heading {
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
 
 
 .main    {
@@ -37,21 +49,13 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    flex-direction: row;
     flex-wrap: wrap;
-    width: 40%;
-    height: 60%;
-  
-
 }
 
 /*    width: 259px;
     height: 262px;*/
 
-.fist-card {
-    display: flex;
-    flex-direction: row;
-}
+
 
 .card {
     position: relative;
@@ -61,7 +65,7 @@
     justify-content: center;
     align-items: center;
     margin: 50px;
-
+    width: 259px;
 }
 
 /*Create 1 column instead of the 2 I have for larger screens*/
@@ -77,6 +81,8 @@ margin: 50px; */
 
 .card__img {
     display: block;
+    object-fit: contain;
+    width: 100%;
  
 }
 
@@ -121,18 +127,12 @@ margin: 50px; */
     box-sizing: border-box;
     display: flex; 
     flex-direction: column;
-    object-fit: contain;
-   
-  
 }
 
 .info-page__card {
 
     border: dotted blue; 
     display: flex; 
-    height: 50vh;
-    object-fit: contain;
-
 }
 
 .info-page__info {
@@ -144,50 +144,60 @@ margin: 50px; */
     display: flex; */
 
 
-    position: relative;
+ 
     border: 5px solid #FCDDEC;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 5rem;  
-
+    margin: 1rem;  
+    width: 80px;
 
 }
 
-.info-page__photo {
+.info-page__photo img{
     /*border: 5px solid #FCDDEC;
     box-sizing: border-box;
     display: flex;
     max-width: 20vh;
     width: 10vmax; */
 
-    position: relative;
+
+
+   
     border: 5px solid #FCDDEC;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 5rem; 
- object-fit: contain;
-
-
- 
+    margin: 1rem;  
+    width: 100px;
 }
 
-.sub-heading {
-    font-size: 18px;
-    font-weight: bold;
-    justify-content: center;
-    display: flex;
 
-}
 
 .footer > * {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 20px;
+}
+
+
+
+@media screen and (min-width: 400px) {
+    /* If screen size is more than 400px wide */
+
+    .main {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.intro__heading {
+    word-break: keep-all;
+}
+    
 }
