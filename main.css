@@ -58,6 +58,7 @@ a {
   font-weight: bold;
   justify-content: center;
   display: flex;
+  flex-basis: initial;
 }
 
 .main {
@@ -65,7 +66,6 @@ a {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 /*    width: 259px;
@@ -187,9 +187,9 @@ margin: 50px; */
 @media screen and (min-width: 400px) {
   /* If screen size is more than 400px wide */
   .main {
-    flex-direction: row;
-    flex-wrap: wrap;
-    display: flex;
+    /*  flex-direction: row;
+      flex-wrap: wrap;
+      display: flex; */
   }
 
   .intro__heading {
@@ -199,5 +199,13 @@ margin: 50px; */
   .intro__sub-heading {
     white-space: nowrap;
     /* this removes the wrap*/
+  }
+
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
