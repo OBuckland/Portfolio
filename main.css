@@ -46,6 +46,12 @@ a {
   word-wrap: break-word;
   word-break: break-word;
 }
+.intro__sub-heading {
+  width: 150px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
 
 .sub-heading {
   font-size: 18px;
@@ -131,6 +137,7 @@ margin: 50px; */
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  display: block;
 }
 
 .info-page__card {
@@ -186,6 +193,11 @@ margin: 50px; */
   }
 
   .intro__heading {
-    word-break: keep-all;
+    white-space: nowrap;
+    /* this removes the wrap*/
+  }
+  .intro__sub-heading {
+    white-space: nowrap;
+    /* this removes the wrap*/
   }
 }

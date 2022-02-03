@@ -33,7 +33,14 @@
         overflow-wrap: break-word;
         word-wrap: break-word;
         word-break: break-word;
-} }
+        } 
+    &__sub-heading {
+        width: 150px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+}
 
 
 .sub-heading {
@@ -42,7 +49,6 @@
     justify-content: center;
     display: flex;
 }
-
 
 .main    {
     display: flex;
@@ -127,6 +133,7 @@ margin: 50px; */
     box-sizing: border-box;
     display: flex; 
     flex-direction: column;
+    display: block;
 }
 
 .info-page__card {
@@ -196,8 +203,16 @@ margin: 50px; */
     display: flex;
 }
 
-.intro__heading {
-    word-break: keep-all;
-}
     
+
+.intro  {
+
+    &__heading {
+        white-space: nowrap; /* this removes the wrap*/
+        } 
+    &__sub-heading {
+        white-space: nowrap; /* this removes the wrap*/
+        
+    }
+}
 }
