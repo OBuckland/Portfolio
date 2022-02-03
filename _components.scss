@@ -134,7 +134,7 @@ margin: 50px; */
     box-sizing: border-box;
     display: flex; 
     flex-direction: column;
-    display: block;
+    
 }
 
 .info-page__card {
@@ -160,7 +160,10 @@ margin: 50px; */
     align-items: center;
     flex-direction: column;
     margin: 1rem;  
-    width: 80px;
+    /*width: 80px;*/
+    width: 163px;
+    height: 194px;
+    font-size: 10px;
 
 }
 
@@ -170,9 +173,6 @@ margin: 50px; */
     display: flex;
     max-width: 20vh;
     width: 10vmax; */
-
-
-
    
     border: 5px solid #FCDDEC;
     box-sizing: border-box;
@@ -181,7 +181,9 @@ margin: 50px; */
     align-items: center;
     flex-direction: column;
     margin: 1rem;  
-    width: 100px;
+    /*width: 100px; */
+    width: 163px;
+    height: 194px;
 }
 
 
