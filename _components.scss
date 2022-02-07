@@ -17,13 +17,15 @@
 
 .header {
     display: flex;
-    font-size: 10px;
+    font-size: 13px;
    
     padding-top: 240px;
     padding-bottom: 170px;
     padding-left: 50px;
     align-content: space-between;
 }
+
+
 
 .intro  {
 
@@ -39,15 +41,30 @@
         overflow-wrap: break-word;
         word-wrap: break-word;
         word-break: break-word;
-    }
-}
+    }   
 
+    &__buttondiv {
+        margin-top: 40px;
+    }
+
+    &__button {
+        border: #FCDDEC solid 4px;
+        border-radius: 40px;
+        padding: 5px;
+        font-size: 14px;
+    }
+    }
 
 .sub-heading {
     font-size: 18px;
     font-weight: bold;
     justify-content: center;
     display: flex;
+}
+
+.project-heading {
+    margin-top: 160px;
+    z-index: 9999
     
 }
 
@@ -62,10 +79,15 @@
 /*    width: 259px;
     height: 262px;*/
 
-
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
 .card {
-    position: relative;
+    position: relative; /*this keeps the overlay within*/
     border: 5px solid #FCDDEC;
     box-sizing: border-box;
     display: flex;
@@ -199,22 +221,24 @@ margin: 50px; */
     padding: 20px;
 }
 
+.sub-heading {
+    padding: 30px;
+}
 
 
 @media screen and (min-width: 400px) {
     /* If screen size is more than 400px wide */
 
-    .main {
-      /*  flex-direction: row;
-        flex-wrap: wrap;
-        display: flex; */
+
+    .container {
+        flex-direction: column;
+        /*  The wrap function here has stopped working */
+        display: flex;
+        justify-content: center;
+        align-items: center;       
     }
-
     
-
 .intro  {
-
-
 
     &__heading {
         white-space: nowrap; /* this removes the wrap*/
@@ -225,14 +249,7 @@ margin: 50px; */
         font-size: 36px;
     }
 }
-
-    .container {
-        flex-direction: row;
-        flex-wrap: wrap;
-        display: flex;
-        justify-content: center;
-        align-items: center;       
-    }
+ 
 
 
     .info-page__info {
@@ -251,6 +268,3 @@ margin: 50px; */
      
 }
 
-.sub-heading {
-    padding: 30px;
-}
