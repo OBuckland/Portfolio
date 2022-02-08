@@ -12,7 +12,7 @@
     align-items: center;
     text-indent: 30px;
     font-weight: bold;
-    z-index: 9999
+    z-index: 9999;
     }
 
 .header {
@@ -60,11 +60,13 @@
     font-weight: bold;
     justify-content: center;
     display: flex;
+    margin: 40px;
+    z-index: 9999;
 }
 
 .project-heading {
     margin-top: 160px;
-    z-index: 9999
+    
     
 }
 
@@ -157,7 +159,8 @@ margin: 50px; */
     display: flex; 
     flex-direction: column;
     padding: 15px;
-    margin: 10px;
+    margin: 15px;
+    padding-top: 100px;
 }
 
 .info-page__card {
@@ -166,6 +169,7 @@ margin: 50px; */
     display: flex; 
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
    
     
 }
@@ -221,9 +225,6 @@ margin: 50px; */
     padding: 20px;
 }
 
-.sub-heading {
-    padding: 30px;
-}
 
 
 @media screen and (min-width: 400px) {

@@ -68,11 +68,12 @@ a {
   font-weight: bold;
   justify-content: center;
   display: flex;
+  margin: 40px;
+  z-index: 9999;
 }
 
 .project-heading {
   margin-top: 160px;
-  z-index: 9999;
 }
 
 .main {
@@ -160,7 +161,8 @@ margin: 50px; */
   display: flex;
   flex-direction: column;
   padding: 15px;
-  margin: 10px;
+  margin: 15px;
+  padding-top: 100px;
 }
 
 .info-page__card {
@@ -168,6 +170,7 @@ margin: 50px; */
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 40px;
 }
 
 .info-page__info {
@@ -210,10 +213,6 @@ margin: 50px; */
   align-items: center;
   justify-content: space-evenly;
   padding: 20px;
-}
-
-.sub-heading {
-  padding: 30px;
 }
 
 @media screen and (min-width: 400px) {
@@ -323,7 +322,6 @@ margin: 50px; */
 }
 
 /*BUBBLE 3 TOP RIGHT HAND CORNER*/
-/*This container postiontions the bubble on the page, to change size, H&W must be changed in all classes*/
 .bubble3-container > * {
   position: absolute;
   top: 40px;
@@ -356,7 +354,6 @@ margin: 50px; */
 }
 
 /*BUBBLE 4 right hand side below big hero page bubble*/
-/*This container postiontions the bubble on the page, to change size, H&W must be changed in all classes*/
 .bubble4-container > * {
   position: absolute;
   top: 500px;
@@ -389,19 +386,17 @@ margin: 50px; */
 }
 
 /*BUBBLE 5 middle bubble below CTAB on hero page, the sizing for this bubbles is same as bubble 2*/
-/*This container postiontions the bubble on the page, to change size, H&W must be changed in all classes*/
 .bubble5-container > * {
   position: absolute;
-  top: 629px;
-  left: 40%;
+  top: 620px;
+  left: 30%;
 }
 
 /*BUBBLE 6 below left hand sdie above big prjects bubble*/
-/*This container postiontions the bubble on the page, to change size, H&W must be changed in all classes*/
 .bubble6-container > * {
   position: absolute;
   top: 730px;
-  left: 5%;
+  left: 1%;
 }
 
 .circleBase6 {
@@ -430,11 +425,11 @@ margin: 50px; */
 }
 
 /*BUBBLE 7 big prjects bubble*/
-/*This container postiontions the bubble on the page, to change size, H&W must be changed in all classes*/
 .bubble7-container > * {
   position: absolute;
-  top: 700px;
-  left: 35%;
+  top: 780px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .circleBase7 {
@@ -502,15 +497,30 @@ margin: 50px; */
 /*This container postiontions the bubble on the page, to change size, H&W must be changed in all classes*/
 .bubble12-container > * {
   position: absolute;
-  top: 2250px;
+  top: 1780px;
   left: 40%;
+}
+
+/*BUBBLE 13 right hand side aobve about me bubble, the sizing for this bubbles is same as bubble 2 and 5*/
+.bubble13-container > * {
+  position: absolute;
+  top: 2100px;
+  left: 80%;
   z-index: -1;
 }
 
-/*BUBBLE 13 left hand side above about me bubble, the sizing for this bubbles is same as bubble 2*/
+/*BUBBLE 14 left hand side above about me bubble, the sizing for this bubbles is same as bubble 2*/
 /*This container postiontions the bubble on the page, to change size, H&W must be changed in all classes*/
-.bubble13-container > * {
+.bubble14-container > * {
   position: absolute;
   top: 2300px;
-  left: 2%;
+  left: 1%;
+}
+
+/*BUBBLE 15 big About Me bubble*/
+.bubble15-container > * {
+  position: absolute;
+  top: 2450px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
