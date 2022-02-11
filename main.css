@@ -76,19 +76,19 @@ a {
   margin-top: 160px;
 }
 
-.main {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-}
-
 /*    width: 259px;
     height: 262px;*/
+/* Adding these stylings move the cards into a columns.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+} */
 .container {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .card {
@@ -216,13 +216,6 @@ margin: 50px; */
 
 @media screen and (min-width: 400px) {
   /* If screen size is more than 400px wide */
-  /* .body {
-       flex-direction: column;
-   }
-
-   .container {
-       flex-wrap: wrap;
-   } */
   .intro__heading {
     white-space: nowrap;
     /* this removes the wrap*/
@@ -232,6 +225,10 @@ margin: 50px; */
     white-space: nowrap;
     /* this removes the wrap*/
     font-size: 36px;
+  }
+
+  .container {
+    flex-direction: row;
   }
 }
 /*To chagen size of bubble must change the size on circle1(2,3 etc) and overlay3*/

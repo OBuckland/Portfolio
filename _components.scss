@@ -25,7 +25,6 @@
 }
 
 
-
 .intro  {
 
     &__heading {
@@ -67,20 +66,23 @@
     margin-top: 160px;
 }
 
-.main    {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-}
+
 
 /*    width: 259px;
     height: 262px;*/
 
-.container {
+/* Adding these stylings move the cards into a columns.container {
     display: flex;
     justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+} */
+
+.container { 
     align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .card {
@@ -95,8 +97,6 @@
 }
 
 /*Create 1 column instead of the 2 I have for larger screens*/
-
-
 
 /*display: flex;
 justify-content: center;
@@ -225,14 +225,7 @@ margin: 50px; */
 @media screen and (min-width: 400px) {
     /* If screen size is more than 400px wide */
 
-   /* .body {
-        flex-direction: column;
-    }
 
-    .container {
-        flex-wrap: wrap;
-    } */
-    
     .intro  {
 
     &__heading {
@@ -245,6 +238,10 @@ margin: 50px; */
     }
 }
  
+.container { 
+    flex-direction: row;
+    
+}
      
 }
 
