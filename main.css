@@ -148,6 +148,17 @@ a {
   display: flex;
   flex-direction: column;
 }
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 991px) {
+  .container {
+    flex-direction: row;
+  }
+}
 
 .card {
   position: relative;
