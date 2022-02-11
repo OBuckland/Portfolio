@@ -79,7 +79,7 @@ a {
 .main {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -88,7 +88,6 @@ a {
 .container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -217,14 +216,13 @@ margin: 50px; */
 
 @media screen and (min-width: 400px) {
   /* If screen size is more than 400px wide */
-  .container {
-    flex-direction: column;
-    /*  The wrap function here has stopped working */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  /* .body {
+       flex-direction: column;
+   }
 
+   .container {
+       flex-wrap: wrap;
+   } */
   .intro__heading {
     white-space: nowrap;
     /* this removes the wrap*/
@@ -234,15 +232,6 @@ margin: 50px; */
     white-space: nowrap;
     /* this removes the wrap*/
     font-size: 36px;
-  }
-
-  .info-page__info {
-    /* border: 5px solid #FCDDEC;
-     box-sizing: border-box; 
-     margin: 20px;
-     flex-direction: column;
-     display: flex; */
-    font-size: 20px;
   }
 }
 /*To chagen size of bubble must change the size on circle1(2,3 etc) and overlay3*/
