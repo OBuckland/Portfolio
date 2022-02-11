@@ -251,7 +251,7 @@ margin: 50px; */
   width: 100%;
   font-size: 10px;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 500px) and (max-width: 990px) {
   .info-page__info {
     font-size: 20px;
   }
@@ -283,6 +283,17 @@ margin: 50px; */
   align-items: center;
   justify-content: space-evenly;
   padding: 20px;
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .footer > * {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .footer > * {
+    font-size: 30px;
+  }
 }
 
 /*To chagen size of bubble must change the size on circle1(2,3 etc) and overlay3*/
@@ -470,6 +481,7 @@ margin: 50px; */
   top: 780px;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: -1;
 }
 
 .circleBase7 {
@@ -560,7 +572,13 @@ margin: 50px; */
 /*BUBBLE 15 big About Me bubble*/
 .bubble15-container > * {
   position: absolute;
-  top: 2450px;
+  top: 2080px;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: -1;
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .bubble15-container > * {
+    top: 1730px;
+  }
 }

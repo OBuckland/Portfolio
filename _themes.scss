@@ -197,6 +197,7 @@ background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)
   top: 780px;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: -1;
 }
 
 .circleBase7 {
@@ -297,7 +298,13 @@ background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)
 
 .bubble15-container > * {
   position: absolute;
-  top: 2450px;
+  top: 2080px;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: -1;
+
+ 
+   @media screen and (min-width: 768px) and (max-width: 990px) {
+    top: 1730px;
+            }
 }
