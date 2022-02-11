@@ -30,6 +30,16 @@ a {
   font-weight: bold;
   z-index: 9999;
 }
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .navigation {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .navigation {
+    font-size: 24px;
+  }
+}
 
 .header {
   display: flex;
@@ -47,11 +57,38 @@ a {
   word-wrap: break-word;
   word-break: break-word;
 }
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .intro__heading {
+    white-space: nowrap;
+    /* this removes the wrap*/
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .intro__heading {
+    font-size: 70px;
+    white-space: nowrap;
+  }
+}
 .intro__sub-heading {
   width: 150px;
   overflow-wrap: break-word;
   word-wrap: break-word;
   word-break: break-word;
+  font-weight: normal;
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .intro__sub-heading {
+    white-space: nowrap;
+    /* this removes the wrap*/
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .intro__sub-heading {
+    font-size: 70px;
+    white-space: nowrap;
+  }
 }
 .intro__buttondiv {
   margin-top: 40px;
@@ -62,6 +99,16 @@ a {
   padding: 5px;
   font-size: 14px;
 }
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .intro__button {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .intro__button {
+    font-size: 24px;
+  }
+}
 
 .sub-heading {
   font-size: 18px;
@@ -69,11 +116,22 @@ a {
   justify-content: center;
   display: flex;
   margin: 40px;
-  z-index: 9999;
+  /* Bubble needs to increase in size */
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .sub-heading {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .sub-heading {
+    font-size: 50px;
+  }
 }
 
 .project-heading {
   margin-top: 160px;
+  z-index: 9999;
 }
 
 /*    width: 259px;
@@ -163,7 +221,6 @@ margin: 50px; */
   margin: 15px;
   padding-top: 100px;
 }
-
 .info-page__card {
   /*border: dotted blue; */
   display: flex;
@@ -171,7 +228,6 @@ margin: 50px; */
   align-items: center;
   padding-top: 40px;
 }
-
 .info-page__info {
   /* border: 5px solid #FCDDEC;
    box-sizing: border-box; 
@@ -189,7 +245,6 @@ margin: 50px; */
   width: 100%;
   font-size: 10px;
 }
-
 .info-page__photo img {
   /*border: 5px solid #FCDDEC;
   box-sizing: border-box;
@@ -214,23 +269,6 @@ margin: 50px; */
   padding: 20px;
 }
 
-@media screen and (min-width: 400px) {
-  /* If screen size is more than 400px wide */
-  .intro__heading {
-    white-space: nowrap;
-    /* this removes the wrap*/
-    font-size: 36px;
-  }
-  .intro__sub-heading {
-    white-space: nowrap;
-    /* this removes the wrap*/
-    font-size: 36px;
-  }
-
-  .container {
-    flex-direction: row;
-  }
-}
 /*To chagen size of bubble must change the size on circle1(2,3 etc) and overlay3*/
 /*Large bubble on hero page*/
 .bubble1-container > * {
