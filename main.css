@@ -229,11 +229,6 @@ margin: 50px; */
   padding-top: 40px;
 }
 .info-page__info {
-  /* border: 5px solid #FCDDEC;
-   box-sizing: border-box; 
-   margin: 20px;
-   flex-direction: column;
-   display: flex; */
   border: 5px solid #FCDDEC;
   box-sizing: border-box;
   display: flex;
@@ -244,6 +239,16 @@ margin: 50px; */
   /*width: 80px;*/
   width: 100%;
   font-size: 10px;
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .info-page__info {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .info-page__info {
+    font-size: 30px;
+  }
 }
 .info-page__photo img {
   /*border: 5px solid #FCDDEC;
