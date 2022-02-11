@@ -15,8 +15,8 @@ a {
 }
 
 .navigation {
-  height: 77px;
-  width: 100%;
+  height: 10vh;
+  width: 100vw;
   background-color: #fcddec;
   color: #5b4d8c;
   font-size: 14px;
@@ -43,9 +43,10 @@ a {
 
 .header {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-size: 13px;
-  padding-top: 240px;
-  padding-bottom: 170px;
+  height: 110vh;
   padding-left: 50px;
   align-content: space-between;
 }
@@ -130,8 +131,10 @@ a {
 }
 
 .project-heading {
-  margin-top: 160px;
-  z-index: 9999;
+  position: absolute;
+  top: 120vh;
+  text-align: center;
+  width: 100vw;
 }
 
 /*    width: 259px;
@@ -142,20 +145,22 @@ a {
     align-items: center; 
     flex-direction: row;
 } */
-.container {
+.project-section {
+  margin-top: 200px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  display: flex;
   flex-direction: column;
+  width: 100vw;
 }
 @media screen and (min-width: 768px) and (max-width: 990px) {
-  .container {
+  .project-section {
     flex-direction: row;
     flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 991px) {
-  .container {
+  .project-section {
     flex-direction: row;
   }
 }
@@ -224,12 +229,10 @@ margin: 50px; */
 }
 
 .info-page {
-  /*border: dotted green;*/
+  width: 100vw;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  padding: 15px;
-  margin: 15px;
   padding-top: 100px;
 }
 .info-page__card {
@@ -246,10 +249,9 @@ margin: 50px; */
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 1rem;
   /*width: 80px;*/
-  width: 100%;
   font-size: 10px;
+  margin: 10px;
 }
 @media screen and (min-width: 500px) and (max-width: 990px) {
   .info-page__info {
@@ -273,7 +275,7 @@ margin: 50px; */
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 1rem;
+  margin: 10px;
   width: 100%;
   height: 100%;
 }
@@ -514,7 +516,7 @@ margin: 50px; */
 /*BUBBLE 7 big prjects bubble*/
 .bubble7-container > * {
   position: absolute;
-  top: 780px;
+  top: 120vh;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
