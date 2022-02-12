@@ -124,3 +124,61 @@ _sidebar.scss */
         align-items: center;
         justify-content: center;
     }
+
+
+.info-page {
+
+    width: 100vw;
+    display: flex; 
+    flex-direction: column;
+    padding-top: 100px;
+
+    &__about-me {  /* NOT WORKING */
+        
+        position: absolute;
+        top: 280vh;
+        text-align: center;
+        width: 100vw;
+        /*
+        position: relative;
+        top: calc(-10vh);  /*if functional this would be the same as the vh for the bubble*/    
+    }
+
+    &__card {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+   }
+
+    &__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*width: 80px;*/
+    font-size: 10px;
+    margin: 10px;
+    }
+
+    &__photo img{
+    /*border: 5px solid #FCDDEC;
+    box-sizing: border-box;
+    display: flex;
+    max-width: 20vh;
+    width: 10vmax; */
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    }
+    
+    &__contact {
+        top: 100vh;
+        
+    }
+}
