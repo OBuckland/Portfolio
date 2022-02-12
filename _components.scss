@@ -80,34 +80,8 @@ _gallery.scss */
             } 
 }
 
-.container {
-    margin-top: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-}
 
-.card {
-    position: relative; /*this keeps the overlay within*/
-    border: 5px solid #FCDDEC;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
-    width: 259px;
-}
 
-/*Create 1 column instead of the 2 I have for larger screens*/
-
-/*display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-padding: 30px;
-margin: 50px; */
 
 .card__img {
     display: block;

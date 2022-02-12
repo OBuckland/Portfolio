@@ -93,3 +93,23 @@ _sidebar.scss */
         flex-direction: row;
                 } 
     }
+
+    .container {
+        margin-top: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card {
+        position: relative; /*this keeps the overlay within*/
+        border: 5px solid #FCDDEC;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+        width: 259px;
+    }
