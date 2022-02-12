@@ -105,11 +105,22 @@ _sidebar.scss */
 
     .card {
         position: relative; /*this keeps the overlay within*/
-        border: 5px solid #FCDDEC;
-        box-sizing: border-box;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 50px;
         width: 259px;
+    }
+
+
+    .card__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
