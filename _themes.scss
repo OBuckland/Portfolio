@@ -4,7 +4,7 @@
 .bubble1-container  > * {
 
     position: absolute;
-    top: 220px;
+    top: 10vh;
     left: 55%;
     @media screen and (min-width: 991px)  and (max-width: 1300px) {
       width: 350px;
@@ -36,7 +36,7 @@
     height: 350px;
   }
   }
-
+  
   .glass-overlay1a {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
     backdrop-filter: blur(10px);
@@ -74,7 +74,7 @@
 /*This container postiontions the bubble on the page, to change size, H&W must be changed in all classes*/
  .bubble2-container > * {
   position: absolute;
-    top: 140px;
+    top: calc(-5vh);
     left: 15%;
 
 }
@@ -109,7 +109,7 @@ background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)
 
 .bubble3-container > * {
   position: absolute;
-    top: 40px;
+    top: calc(-10vh);
     left: 85%;
 }
 
@@ -220,7 +220,7 @@ background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)
 
 .bubble7-container > * {
   position: absolute;
-  top: 120vh;
+  top: 115vh;
   left: 50vw;
   transform: translate(-50%, -50%);
   z-index: -1;
@@ -247,16 +247,29 @@ background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)
 }
 }
 
-.glass-overlay3f {
+  
+.glass-overlay1p {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(44px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  mix-blend-mode: screen;
+  
+}
+
+.glass-overlay3f {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+ /* - removed so that the text can be seen -- backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(20px); */ 
   border-radius: 20px;
   border:1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   width: 160px;
   height: 160px;
   border-radius: 50%;
+  
 
   @media screen and (min-width: 768px) and (max-width: 990px) {
     width: 200px;

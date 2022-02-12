@@ -8,6 +8,9 @@ _header.scss
 _grid.scss
 _sidebar.scss */
 
+.body {
+
+}
 
 .navigation {
     height: 10vh;
@@ -75,6 +78,7 @@ _sidebar.scss */
         top: 120vh;
         text-align: center;
         width: 100vw;
+        z-index: 9999;
     }
 
     .project-section  /*This was the container re-make*/ { 
@@ -94,7 +98,7 @@ _sidebar.scss */
                 } 
     }
 
-    .container {
+    .container /*this is for the bubbles*/ {
         margin-top: 200px;
         display: flex;
         align-items: center;
@@ -135,6 +139,13 @@ _sidebar.scss */
 
     &__about-me {  /* NOT WORKING */
         
+        position: absolute;
+        top: 287vh;
+        text-align: center;
+        width: 100vw;
+        z-index: 9999;
+
+        /*
         position: absolute;
         top: 280vh;
         text-align: center;

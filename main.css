@@ -147,17 +147,19 @@ _gallery.scss */
 .info-page {
   box-sizing: border-box;
 }
-.info-page__info {
+.info-page__info1 {
+  font-size: 14px;
   border: 5px solid #FCDDEC;
   box-sizing: border-box;
+  max-width: 40vw;
 }
 @media screen and (min-width: 500px) and (max-width: 990px) {
-  .info-page__info {
+  .info-page__info1 {
     font-size: 20px;
   }
 }
 @media screen and (min-width: 991px) {
-  .info-page__info {
+  .info-page__info1 {
     font-size: 30px;
   }
 }
@@ -255,6 +257,7 @@ _sidebar.scss */
   top: 120vh;
   text-align: center;
   width: 100vw;
+  z-index: 9999;
 }
 
 .project-section {
@@ -317,6 +320,12 @@ _sidebar.scss */
 .info-page__about-me {
   /* NOT WORKING */
   position: absolute;
+  top: 287vh;
+  text-align: center;
+  width: 100vw;
+  z-index: 9999;
+  /*
+  position: absolute;
   top: 280vh;
   text-align: center;
   width: 100vw;
@@ -368,7 +377,7 @@ _sidebar.scss */
 /*Large bubble on hero page*/
 .bubble1-container > * {
   position: absolute;
-  top: 220px;
+  top: 10vh;
   left: 55%;
 }
 @media screen and (min-width: 991px) and (max-width: 1300px) {
@@ -447,7 +456,7 @@ _sidebar.scss */
 /*This container postiontions the bubble on the page, to change size, H&W must be changed in all classes*/
 .bubble2-container > * {
   position: absolute;
-  top: 140px;
+  top: calc(-5vh);
   left: 15%;
 }
 
@@ -479,7 +488,7 @@ _sidebar.scss */
 /*BUBBLE 3 TOP RIGHT HAND CORNER*/
 .bubble3-container > * {
   position: absolute;
-  top: 40px;
+  top: calc(-10vh);
   left: 85%;
 }
 
@@ -582,7 +591,7 @@ _sidebar.scss */
 /*BUBBLE 7 big prjects bubble*/
 .bubble7-container > * {
   position: absolute;
-  top: 120vh;
+  top: 115vh;
   left: 50vw;
   transform: translate(-50%, -50%);
   z-index: -1;
@@ -613,10 +622,20 @@ _sidebar.scss */
   }
 }
 
-.glass-overlay3f {
+.glass-overlay1p {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(44px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  mix-blend-mode: screen;
+}
+
+.glass-overlay3f {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+  /* - removed so that the text can be seen -- backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(20px); */
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
