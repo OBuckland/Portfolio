@@ -3,6 +3,80 @@
 //header
 //footer
 
+layout/
+_header.scss
+_grid.scss
+_sidebar.scss
+
+
+.navigation {
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    justify-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    }
+
+
+    .header {
+        height: 110vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 13px;
+        padding-left: 50px;
+        align-content: space-between;
+    }
 
 
 
+    .intro  {
+
+    &__heading {
+        width: 150px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        @media screen and (min-width: 768px) and (max-width: 990px) {
+            white-space: nowrap; 
+        }
+        @media screen and (min-width: 991px) {
+            white-space: nowrap;
+        }
+        } 
+
+    &__sub-heading {
+        width: 150px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        font-weight: normal;
+        @media screen and (min-width: 768px) and (max-width: 990px) {
+            white-space: nowrap; 
+        }
+        @media screen and (min-width: 991px) {
+            white-space: nowrap;
+        }
+    }   
+
+    &__buttondiv {
+        margin-top: 40px;
+    }
+
+    &__button {
+        border: #FCDDEC solid 4px;
+        border-radius: 40px;
+        padding: 5px;
+        font-size: 14px;
+
+        @media screen and (min-width: 768px) and (max-width: 990px) {
+            font-size: 18px; 
+        }
+        @media screen and (min-width: 991px) {
+            font-size: 24px;
+        }
+    }
+    }
