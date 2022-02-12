@@ -1,7 +1,4 @@
-.main {
-    margin: 0;
-    padding: 0;
-}
+
 .navigation {
     height: 10vh;
     width: 100vw;
@@ -220,9 +217,19 @@ margin: 50px; */
     flex-direction: column;
     padding-top: 100px;
 
-    &__card {
+    &__about-me {  /* NOT WORKING */
+        
+        position: absolute;
+        top: 280vh;
+        text-align: center;
+        width: 100vw;
+        /*
+        position: relative;
+        top: calc(-10vh);  /*if functional this would be the same as the vh for the bubble*/
+       
+    }
 
-    /*border: dotted blue; */
+    &__card {
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -263,6 +270,10 @@ margin: 50px; */
     width: 100%;
     height: 100%;
 }
+    &__contact {
+        top: 100vh;
+        
+    }
 }
 
 

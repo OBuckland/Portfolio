@@ -220,8 +220,8 @@ background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)
 
 .bubble7-container > * {
   position: absolute;
-  top: 114vh;
-  left: 50%;
+  top: 120vh;
+  left: 50vw;
   transform: translate(-50%, -50%);
   z-index: -1;
 }
@@ -237,6 +237,14 @@ background-color: #4158D0;
 background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   backdrop-filter: blur(30px);
   opacity: 90%;
+  @media screen and (min-width: 768px) and (max-width: 990px) {
+    width: 200px;
+    height: 200px;
+}
+@media screen and (min-width: 991px) {
+  width: 300px;
+  height: 300px;
+}
 }
 
 .glass-overlay3f {
@@ -249,6 +257,15 @@ background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)
   width: 160px;
   height: 160px;
   border-radius: 50%;
+
+  @media screen and (min-width: 768px) and (max-width: 990px) {
+    width: 200px;
+    height: 200px;
+}
+@media screen and (min-width: 991px) {
+  width: 300px;
+  height: 300px;
+}
 }
 
 /*BUBBLE 8 right hand side below projects bubble, the sizing for this bubbles is same as bubble 2 and 5*/
@@ -324,13 +341,36 @@ background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)
 
 .bubble15-container > * {
   position: absolute;
-  top: 2080px;
+  top: 280vh;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
 
- 
-   @media screen and (min-width: 768px) and (max-width: 990px) {
-    top: 1730px;
-            }
+         @media screen and (min-width: 768px) and (max-width: 990px) {
+              width: 200px;
+              height: 200px;
+          }
+          @media screen and (min-width: 991px) {
+            width: 300px;
+            height: 300px;
+          }
+}
+
+/*BUBBLE 16 big Contact bubble*/
+
+.bubble16-container > * {
+  position: absolute;
+  top: 220vh; /*Not working*/
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+
+         @media screen and (min-width: 768px) and (max-width: 990px) {
+              width: 200px;
+              height: 200px;
+          }
+          @media screen and (min-width: 991px) {
+            width: 300px;
+            height: 300px;
+          }
 }
