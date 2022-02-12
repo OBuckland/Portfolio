@@ -2,6 +2,7 @@
 
 /*Large bubble on hero page*/
 .bubble1-container  > * {
+
     position: absolute;
     top: 220px;
     left: 55%;
@@ -219,7 +220,7 @@ background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)
 
 .bubble7-container > * {
   position: absolute;
-  top: 120vh;
+  top: 114vh;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
