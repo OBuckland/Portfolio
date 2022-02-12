@@ -146,13 +146,7 @@ _gallery.scss */
 }
 
 
-
-
 .footer > * {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 20px;
     font-size: 18px;
 
     @media screen and (min-width: 768px) and (max-width: 990px) {

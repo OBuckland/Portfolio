@@ -172,10 +172,6 @@ _gallery.scss */
 }
 
 .footer > * {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 20px;
   font-size: 18px;
 }
 @media screen and (min-width: 768px) and (max-width: 990px) {
@@ -359,6 +355,13 @@ _sidebar.scss */
 }
 .info-page__contact {
   top: 100vh;
+}
+
+.footer > * {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
 }
 
 /*To chagen size of bubble must change the size on circle1(2,3 etc) and overlay3*/
