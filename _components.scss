@@ -1,7 +1,7 @@
-components/
+/*components/
 _buttons.scss
 _navigation.scss
-_gallery.scss
+_gallery.scss */
 
 .navigation {
 
@@ -40,18 +40,12 @@ _gallery.scss
         } 
 
     &__sub-heading {
-        width: 150px;
-        overflow-wrap: break-word;
-        word-wrap: break-word;
-        word-break: break-word;
         font-weight: normal;
         @media screen and (min-width: 768px) and (max-width: 990px) {
-            white-space: nowrap; /* this removes the wrap*/
             font-size: 36px; 
         }
         @media screen and (min-width: 991px) {
             font-size: 70px;
-            white-space: nowrap;
         }
     }   
 
@@ -77,52 +71,12 @@ _gallery.scss
 .sub-heading {
     font-size: 18px;
     font-weight: bold;
-    justify-content: center;
-    display: flex;
-    margin: 40px;
-
-            /* Bubble needs to increase in size */
-            @media screen and (min-width: 768px) and (max-width: 990px) {
-                font-size: 30px; 
+        /* Bubble needs to increase in size */
+         @media screen and (min-width: 768px) and (max-width: 990px) {
+            font-size: 30px; 
             }
-            @media screen and (min-width: 991px) {
-                font-size: 50px;
-            } 
-}
-
-.project-heading {
-    position: absolute;
-    top: 120vh;
-    text-align: center;
-    width: 100vw;
-}
-
-
-
-/*    width: 259px;
-    height: 262px;*/
-
-/* Adding these stylings move the cards into a columns.container {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    flex-direction: row;
-} */
-
-.project-section  /*This was the container re make*/ { 
-    margin-top: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100vw;
-    
-    @media screen and (min-width: 768px) and (max-width: 990px) {
-    flex-direction: row;
-    flex-wrap: wrap; 
-            }
-    @media screen and (min-width: 991px) {
-    flex-direction: row;
+         @media screen and (min-width: 991px) {
+            font-size: 50px;
             } 
 }
 

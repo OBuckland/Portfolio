@@ -2,11 +2,11 @@
 //grid 
 //header
 //footer
-
+/*
 layout/
 _header.scss
 _grid.scss
-_sidebar.scss
+_sidebar.scss */
 
 
 .navigation {
@@ -61,22 +61,35 @@ _sidebar.scss
             white-space: nowrap;
         }
     }   
-
-    &__buttondiv {
-        margin-top: 40px;
     }
 
-    &__button {
-        border: #FCDDEC solid 4px;
-        border-radius: 40px;
-        padding: 5px;
-        font-size: 14px;
 
+    .sub-heading {
+        justify-content: center;
+        display: flex;
+        margin: 40px;
+    }
+
+    .project-heading {
+        position: absolute;
+        top: 120vh;
+        text-align: center;
+        width: 100vw;
+    }
+
+    .project-section  /*This was the container re-make*/ { 
+        margin-top: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+        
         @media screen and (min-width: 768px) and (max-width: 990px) {
-            font-size: 18px; 
-        }
+        flex-direction: row;
+        flex-wrap: wrap; 
+                }
         @media screen and (min-width: 991px) {
-            font-size: 24px;
-        }
-    }
+        flex-direction: row;
+                } 
     }
