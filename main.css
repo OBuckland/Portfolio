@@ -87,7 +87,6 @@ a {
 .sub-heading {
   font-size: 18px;
   font-weight: bold;
-  /* Bubble needs to increase in size */
 }
 @media screen and (min-width: 768px) and (max-width: 990px) {
   .sub-heading {
@@ -137,7 +136,7 @@ a {
   width: 100%;
 }
 .card__overlay {
-  background: rgba(225, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.9);
   opacity: 0;
   /*This means it is hidden by defult*/
   transition: 0.25s;
@@ -302,7 +301,6 @@ a {
     width: 460px;
   }
 }
-
 .card__overlay {
   position: absolute;
   top: 0;
@@ -373,7 +371,7 @@ a {
   margin-top: 200px;
 }
 
-/*To chagen size of bubble must change the size on circle1(2,3 etc) and overlay3*/
+/*Contains the styling of the bubbles and their position*/
 /*Large bubble on hero page*/
 .bubble1-container {
   width: 175px;

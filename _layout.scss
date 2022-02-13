@@ -81,7 +81,7 @@
 
 
 
-    .card {
+.card {
         position: relative; /*this keeps the overlay within*/
         display: flex;
         justify-content: center;
@@ -96,10 +96,8 @@
         @media screen and (min-width: 991px) {
             width: 460px;
         }
-    }
 
-
-    .card__overlay {
+    &__overlay {
         position: absolute;
         top: 0;
         left: 0;
@@ -110,6 +108,7 @@
         align-items: center;
         justify-content: center;
     }
+}
 
 
 .info-page {
