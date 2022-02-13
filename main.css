@@ -354,6 +354,7 @@ _sidebar.scss */
   justify-content: center;
   align-items: center;
   padding-top: 40px;
+  margin: 20px;
 }
 .info-page__info {
   display: flex;
