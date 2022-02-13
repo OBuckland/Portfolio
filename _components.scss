@@ -80,6 +80,19 @@ _gallery.scss */
             } 
 }
 
+.project-heading {
+
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 9999;
+
+    @media screen and (min-width: 768px) and (max-width: 990px) {
+        font-size: 30px; 
+        }
+     @media screen and (min-width: 991px) {
+        font-size: 50px;
+        } 
+}
 
 .card {
     border: 5px solid #FCDDEC;

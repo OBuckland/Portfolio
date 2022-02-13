@@ -104,6 +104,22 @@ _gallery.scss */
   }
 }
 
+.project-heading {
+  font-size: 18px;
+  font-weight: bold;
+  z-index: 9999;
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .project-heading {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .project-heading {
+    font-size: 50px;
+  }
+}
+
 .card {
   border: 5px solid #FCDDEC;
   box-sizing: border-box;
@@ -252,14 +268,14 @@ _sidebar.scss */
   margin: 40px;
 }
 
+/*
 .project-heading {
-  position: absolute;
-  top: 120vh;
-  text-align: center;
-  width: 100vw;
-  z-index: 9999;
-}
-
+    position: absolute;
+    top: 120vh;
+    text-align: center;
+    width: 100vw;
+    z-index: 9999;
+} */
 .project-section {
   margin-top: 200px;
   display: flex;
@@ -315,7 +331,7 @@ _sidebar.scss */
   width: 100vw;
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 250px;
 }
 .info-page__about-me {
   /* NOT WORKING */
@@ -361,9 +377,6 @@ _sidebar.scss */
   margin: 10px;
   width: 100%;
   height: 100%;
-}
-.info-page__contact {
-  top: 100vh;
 }
 
 .footer > * {
@@ -430,8 +443,8 @@ _sidebar.scss */
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
   border-radius: 50%;
   position: absolute;
-  top: calc(-28vh);
-  left: calc(-30vw);
+  left: 61px;
+  top: 132px;
 }
 
 .glass2 {
@@ -454,8 +467,8 @@ _sidebar.scss */
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
   border-radius: 50%;
   position: absolute;
-  top: calc(-10vh);
-  left: 10vw;
+  left: 313px;
+  top: 51px;
 }
 
 .glass3 {
@@ -478,8 +491,8 @@ _sidebar.scss */
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
   border-radius: 50%;
   position: absolute;
-  top: 600px;
-  left: 0px;
+  left: 304px;
+  top: 556px;
 }
 
 .glass4 {
@@ -502,8 +515,8 @@ _sidebar.scss */
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
   border-radius: 50%;
   position: absolute;
-  top: 100px;
-  left: 170px;
+  left: -30px;
+  top: 641px;
 }
 
 .glass5 {
@@ -526,8 +539,8 @@ _sidebar.scss */
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
   border-radius: 50%;
   position: absolute;
-  top: 150px;
-  left: 120px;
+  top: 864px;
+  left: -28px;
 }
 
 .glass6 {
@@ -549,11 +562,10 @@ _sidebar.scss */
   background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
   border-radius: 50%;
-  z-index: 1;
   text-align: center;
   position: absolute;
-  top: 20px;
-  left: -300px;
+  left: 96px;
+  top: 825px;
 }
 @media screen and (min-width: 768px) and (max-width: 990px) {
   .bubble7-container {
@@ -592,18 +604,15 @@ _sidebar.scss */
   }
 }
 
-.project-bubble7 {
+.project-heading {
   line-height: 170px;
-}
-@media screen and (min-width: 768px) and (max-width: 990px) {
-  .project-bubble7 {
-    line-height: 190px;
+  /*
+    @media screen and (min-width: 768px) and (max-width: 990px) {
+      line-height: 190px;
   }
-}
-@media screen and (min-width: 991px) {
-  .project-bubble7 {
-    line-height: 300px;
-  }
+    @media screen and (min-width: 991px) {
+     line-height: 300px; 
+  } */
 }
 
 /*BUBBLE 8 right hand side below projects bubble, the sizing for this bubbles is same as bubble 2 and 5*/
@@ -614,8 +623,9 @@ _sidebar.scss */
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
   border-radius: 50%;
   position: absolute;
-  top: 80px;
-  left: 0px;
+  left: 301px;
+  top: 1067px;
+  z-index: -1;
 }
 
 .glass8 {
@@ -630,103 +640,376 @@ _sidebar.scss */
   border-radius: 50%;
 }
 
-/*This container postiontions the bubble on the page, to change size, H&W must be changed in all classes
-.bubble8-container > * {
-  position: absolute;
-    top: 890px;
-    left: 90%;
-    z-index: -1;
-} */
 /*BUBBLE 9 left hand side below projects bubble, the sizing for this bubbles is same as bubble 3*/
 /*This container postiontions the bubble on the page, to change size, H&W must be changed in all classes*/
-.bubble9-container > * {
+.bubble9-container {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
   position: absolute;
-  top: 910px;
-  left: 10%;
-  z-index: -1;
+  left: -10px;
+  top: 1223px;
+}
+
+.glass9 {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 /*BUBBLE 10 right hand side on project 2, the sizing for this bubbles is same as bubble 3*/
 /*This container postiontions the bubble on the page, to change size, H&W must be changed in all classes*/
-.bubble10-container > * {
+.bubble10-container {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
   position: absolute;
-  top: 1450px;
-  left: 80%;
+  left: 286px;
+  top: 1480px;
   z-index: -1;
+}
+
+.glass10 {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 /*BUBBLE 11 left hand side on project 2, the sizing for this bubbles is same as bubble 3*/
 /*This container postiontions the bubble on the page, to change size, H&W must be changed in all classes*/
-.bubble11-container > * {
+.bubble11-container {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
   position: absolute;
-  top: 1580px;
-  left: 9%;
+  left: 2px;
+  top: 1659px;
   z-index: -1;
+}
+
+.glass11 {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 /*BUBBLE 12 middle below project 3, the sizing for this bubbles is same as bubble 2 and 5*/
 /*This container postiontions the bubble on the page, to change size, H&W must be changed in all classes*/
-.bubble12-container > * {
+.bubble12-container {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
   position: absolute;
-  top: 1780px;
-  left: 40%;
+  left: 173px;
+  top: 2064px;
+  z-index: -1;
+}
+
+.glass12 {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 /*BUBBLE 13 right hand side aobve about me bubble, the sizing for this bubbles is same as bubble 2 and 5*/
-.bubble13-container > * {
+.bubble13-container {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
   position: absolute;
-  top: 2100px;
-  left: 80%;
+  left: 318px;
+  top: 1858px;
   z-index: -1;
+}
+
+.glass13 {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 /*BUBBLE 14 left hand side above about me bubble, the sizing for this bubbles is same as bubble 2*/
 /*This container postiontions the bubble on the page, to change size, H&W must be changed in all classes*/
-.bubble14-container > * {
+.bubble14-container {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
   position: absolute;
-  top: 2300px;
-  left: 1%;
+  left: -30px;
+  top: 2131px;
+  z-index: -1;
+}
+
+.glass14 {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 /*BUBBLE 15 big About Me bubble*/
-.bubble15-container > * {
+.bubble15-container {
+  width: 175px;
+  height: 171px;
+  background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
+  text-align: center;
   position: absolute;
-  top: 280vh;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
+  left: 97px;
+  top: 2150px;
 }
 @media screen and (min-width: 768px) and (max-width: 990px) {
-  .bubble15-container > * {
+  .bubble15-container {
     width: 200px;
     height: 200px;
   }
 }
 @media screen and (min-width: 991px) {
-  .bubble15-container > * {
+  .bubble15-container {
     width: 300px;
     height: 300px;
   }
 }
 
-/*BUBBLE 16 big Contact bubble*/
-.bubble16-container > * {
-  position: absolute;
-  top: 220vh;
-  /*Not working*/
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
+.glass15 {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 175px;
+  height: 171px;
+  border-radius: 50%;
 }
 @media screen and (min-width: 768px) and (max-width: 990px) {
-  .bubble16-container > * {
+  .glass15 {
     width: 200px;
     height: 200px;
   }
 }
 @media screen and (min-width: 991px) {
-  .bubble16-container > * {
+  .glass15 {
     width: 300px;
     height: 300px;
   }
+}
+
+.project-heading {
+  line-height: 170px;
+  /*
+    @media screen and (min-width: 768px) and (max-width: 990px) {
+      line-height: 190px;
+  }
+    @media screen and (min-width: 991px) {
+     line-height: 300px; 
+  } */
+}
+
+/*BUBBLE 16 big Contact bubble*/
+.bubble16-container {
+  width: 175px;
+  height: 171px;
+  background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  left: 105px;
+  top: 2820px;
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .bubble16-container {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .bubble16-container {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.glass16 {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 175px;
+  height: 171px;
+  border-radius: 50%;
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .glass16 {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .glass16 {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.project-heading {
+  line-height: 170px;
+  /*
+    @media screen and (min-width: 768px) and (max-width: 990px) {
+      line-height: 190px;
+  }
+    @media screen and (min-width: 991px) {
+     line-height: 300px; 
+  } */
+}
+
+/*BUBBLE 17 */
+.bubble17-container {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
+  position: absolute;
+  left: 27px;
+  top: 2651px;
+  z-index: -1;
+}
+
+.glass17 {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/*BUBBLE 18*/
+.bubble18-container {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
+  position: absolute;
+  left: 277px;
+  top: 2363px;
+  z-index: -1;
+}
+
+.glass18 {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/*BUBBLE 19*/
+.bubble19-container {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
+  position: absolute;
+  left: 325px;
+  top: 2703px;
+  z-index: -1;
+}
+
+.glass19 {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/*BUBBLE 20*/
+.bubble20-container {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
+  position: absolute;
+  left: 277px;
+  top: 2363px;
+  z-index: -1;
+}
+
+.glass20 {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
