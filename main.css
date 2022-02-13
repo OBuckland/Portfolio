@@ -119,39 +119,43 @@ a {
 .card {
   border: 5px solid #FCDDEC;
   box-sizing: border-box;
+  text-align: center;
 }
-
+@media screen and (min-width: 500px) and (max-width: 990px) {
+  .card {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .card {
+    font-size: 30px;
+  }
+}
 .card__img {
   display: block;
   object-fit: contain;
   width: 100%;
 }
-
 .card__overlay {
   background: rgba(225, 255, 255, 0.9);
   opacity: 0;
   /*This means it is hidden by defult*/
   transition: 0.25s;
 }
-
 .card__overlay > * {
   /*this targets every child of the overlay*, so title and description*/
   transform: translateY(20px);
   transition: transform 0.25s;
 }
-
 .card__overlay:hover {
   opacity: 1;
 }
-
 .card__overlay:hover > * {
   transform: translateY(0);
 }
-
 .card__overlay:active {
   opacity: 1;
 }
-
 .card__overlay:active {
   transform: translateY(0);
 }

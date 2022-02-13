@@ -90,38 +90,46 @@
 .card {
     border: 5px solid #FCDDEC;
     box-sizing: border-box;
-}
+    text-align: center;
 
-.card__img {
+    @media screen and (min-width: 500px) and (max-width: 990px) {
+        font-size: 20px;  }
+    @media screen and (min-width: 991px) {
+        font-size: 30px;   } 
+
+    &__img {
     display: block;
     object-fit: contain;
     width: 100%;
-}
+    }
 
-.card__overlay {
+    &__overlay {
     background: rgba(225, 255, 255, 0.9);
     opacity: 0; /*This means it is hidden by defult*/
     transition: 0.25s;
-}
+    }
 
-.card__overlay > * {
+    &__overlay > * {
     /*this targets every child of the overlay*, so title and description*/
     transform: translateY(20px);
     transition: transform 0.25s;
-}
+    }
 
-.card__overlay:hover {
+    &__overlay:hover {
     opacity: 1;
-}
+    }
 
-.card__overlay:hover > * {
+    &__overlay:hover > * {
     transform: translateY(0);
-}
-.card__overlay:active {
+    }
+
+    &__overlay:active {
     opacity: 1;
-}
-.card__overlay:active {
+    }
+
+    &__overlay:active {
     transform: translateY(0);
+    }
 }
 
 .info-page {
