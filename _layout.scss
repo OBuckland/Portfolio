@@ -1,16 +1,4 @@
-//navigation 
-//grid 
-//header
-//footer
-/*
-layout/
-_header.scss
-_grid.scss
-_sidebar.scss */
 
-.body {
-
-}
 
 .navigation {
     height: 10vh;
@@ -73,14 +61,6 @@ _sidebar.scss */
         margin: 40px;
     }
 
-    /*
-    .project-heading {
-        position: absolute;
-        top: 120vh;
-        text-align: center;
-        width: 100vw;
-        z-index: 9999;
-    } */
 
     .project-section  /*This was the container re-make*/ { 
         margin-top: 200px;
@@ -99,14 +79,7 @@ _sidebar.scss */
                 } 
     }
 
-    .container /*this is for the bubbles*/ {
-        margin-top: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 100%;
-    }
+
 
     .card {
         position: relative; /*this keeps the overlay within*/
@@ -115,6 +88,14 @@ _sidebar.scss */
         align-items: center;
         margin: 50px;
         width: 259px;
+
+        @media screen and (min-width: 768px) and (max-width: 990px) {
+            width: 362px;
+         
+        }
+        @media screen and (min-width: 991px) {
+            width: 460px;
+        }
     }
 
 
@@ -145,15 +126,6 @@ _sidebar.scss */
         text-align: center;
         width: 100vw;
         z-index: 9999;
-
-        /*
-        position: absolute;
-        top: 280vh;
-        text-align: center;
-        width: 100vw;
-        /*
-        position: relative;
-        top: calc(-10vh);  /*if functional this would be the same as the vh for the bubble*/    
     }
 
     &__card {
@@ -175,12 +147,6 @@ _sidebar.scss */
     }
 
     &__photo img{
-    /*border: 5px solid #FCDDEC;
-    box-sizing: border-box;
-    display: flex;
-    max-width: 20vh;
-    width: 10vmax; */
-   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,6 +154,13 @@ _sidebar.scss */
     margin: 10px;
     width: 100%;
     height: 100%;
+
+    @media screen and (min-width: 768px) and (max-width: 990px) {
+        width: 362px;
+    }
+    @media screen and (min-width: 991px) {
+        width: 460px;
+    }
     }
 }
 
