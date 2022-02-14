@@ -16,6 +16,7 @@
   position: relative;
 }
 
+
 .bubble1-container {
   width: 175px;
   height: 171px;
@@ -26,8 +27,8 @@
   top: 40vh;
   left: 55vw;
   @media screen and (min-width: 768px) and (max-width: 990px) {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
 }
 @media screen and (min-width: 991px) {
   width: 350px;
@@ -41,17 +42,9 @@
   -webkit-backdrop-filter: blur( 7.5px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-width: 175px;
-height: 171px;
 border-radius: 50%;
-@media screen and (min-width: 768px) and (max-width: 990px) {
-  width: 250px;
-  height: 250px;
-}
-@media screen and (min-width: 991px) {
-width: 350px;
-height: 350px;
-}
+width: 100%;
+height: 100%;
 }
 
   /*BUBBLE 2 TOP LEFT HAND CORNER*/
@@ -66,6 +59,15 @@ height: 350px;
   position: absolute;
   left: 10vw;
   top: 15vh;
+
+  @media screen and (min-width: 768px) and (max-width: 990px) {
+    width: 100px;
+    height: 100px;
+  }
+  @media screen and (min-width: 991px) {
+  width: 150px;
+  height: 150px;
+  }
 }
 
 .glass2 {
@@ -78,6 +80,8 @@ height: 350px;
   width: 50px;
   height: 50px;
 border-radius: 50%;
+width: 100%;
+height: 100%;
 }
 
 
@@ -97,6 +101,15 @@ border-radius: 50%;
   position: absolute;
   right: 1vw;
   top: 5vh;
+  @media screen and (min-width: 768px) and (max-width: 990px) {
+    width: 120px;
+    height: 120px;
+  }
+  @media screen and (min-width: 991px) {
+  width: 180px;
+  height: 180px;
+  }
+
 
   .glass3 {
       background: rgba(255, 255, 255, 0.55);
@@ -122,6 +135,14 @@ border-radius: 50%;
   position: absolute;
   right: 5vw;
   top: 75vh;
+  @media screen and (min-width: 768px) and (max-width: 990px) {
+    width: 120px;
+    height: 120px;
+  }
+  @media screen and (min-width: 991px) {
+  width: 180px;
+  height: 180px;
+  }
 }
 
 .glass4 {
@@ -129,11 +150,10 @@ border-radius: 50%;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 7.5px );
   -webkit-backdrop-filter: blur( 7.5px );
-  border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-  width: 60px;
-  height: 60px;
-border-radius: 50%;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -149,7 +169,14 @@ border-radius: 50%;
   position: absolute;
   left: 2vw;
   top: 90vh;
-  ;
+  @media screen and (min-width: 768px) and (max-width: 990px) {
+    width: 100px;
+    height: 100px;
+  }
+  @media screen and (min-width: 991px) {
+  width: 150px;
+  height: 150px;
+  }
 }
 
 .glass5 {
@@ -159,9 +186,9 @@ border-radius: 50%;
   -webkit-backdrop-filter: blur( 7.5px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-  width: 50px;
-  height: 50px;
-border-radius: 50%;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /*BUBBLE 6 below right hand sdie above big prjects bubble*/
@@ -187,6 +214,8 @@ border-radius: 50%;
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /*BUBBLE 7 big prjects bubble*/
@@ -202,8 +231,8 @@ border-radius: 50%;
   top: 100vh;
   left: 30vw;
   @media screen and (min-width: 768px) and (max-width: 990px) {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 @media screen and (min-width: 991px) {
   width: 300px;
@@ -220,14 +249,8 @@ border-radius: 50%;
   width: 175px;
   height: 171px;
   border-radius: 50%;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
-    width: 200px;
-    height: 200px;
-  }
-  @media screen and (min-width: 991px) {
-  width: 300px;
-  height: 300px;
-  }
+  width: 100%;
+  height: 100%;
 }
 
 .project-heading /*This is for the text alignent*/ {
@@ -255,8 +278,15 @@ border-radius: 50%;
   right: 1vw;
   top: 140vh;
   z-index: -1;
+  @media screen and (min-width: 768px) and (max-width: 990px) {
+    width: 100px;
+    height: 100px;
+  }
+  @media screen and (min-width: 991px) {
+  width: 150px;
+  height: 150px;
+  }
 }
-
 
 
 .glass8 {
@@ -264,11 +294,10 @@ border-radius: 50%;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 7.5px );
   -webkit-backdrop-filter: blur( 7.5px );
-  border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -284,7 +313,14 @@ border-radius: 50%;
   position: absolute;
   left: 4vw;
   top: 160vh;
-
+  @media screen and (min-width: 768px) and (max-width: 990px) {
+    width: 100px;
+    height: 100px;
+  }
+  @media screen and (min-width: 991px) {
+  width: 150px;
+  height: 150px;
+  }
     }
 
     .glass9 {
@@ -292,11 +328,10 @@ border-radius: 50%;
       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
       backdrop-filter: blur( 7.5px );
       -webkit-backdrop-filter: blur( 7.5px );
-      border-radius: 10px;
       border: 1px solid rgba( 255, 255, 255, 0.18 );
-      width: 50px;
-      height: 50px;
       border-radius: 50%;
+      width: 100%;
+      height: 100%;
     }
 
 
@@ -313,6 +348,14 @@ border-radius: 50%;
       right: 0vw;
       top: 200vh;
       z-index: -1;
+      @media screen and (min-width: 768px) and (max-width: 990px) {
+        width: 100px;
+        height: 100px;
+      }
+      @media screen and (min-width: 991px) {
+      width: 150px;
+      height: 150px;
+      }
         }
     
  .glass10 {
@@ -322,9 +365,9 @@ border-radius: 50%;
        -webkit-backdrop-filter: blur( 7.5px );
        border-radius: 10px;
        border: 1px solid rgba( 255, 255, 255, 0.18 );
-       width: 50px;
-       height: 50px;
        border-radius: 50%;
+       width: 100%;
+       height: 100%;
         }
 
 
@@ -341,6 +384,14 @@ border-radius: 50%;
   left: 1vw;
   top: 220vh;
   z-index: -1;
+  @media screen and (min-width: 768px) and (max-width: 990px) {
+    width: 100px;
+    height: 100px;
+  }
+  @media screen and (min-width: 991px) {
+  width: 150px;
+  height: 150px;
+  }
     }
 
 .glass11 {
@@ -348,11 +399,10 @@ border-radius: 50%;
    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
    backdrop-filter: blur( 7.5px );
    -webkit-backdrop-filter: blur( 7.5px );
-   border-radius: 10px;
    border: 1px solid rgba( 255, 255, 255, 0.18 );
-   width: 50px;
-   height: 50px;
    border-radius: 50%;
+   width: 100%;
+   height: 100%;
     }
 
 
@@ -369,6 +419,16 @@ border-radius: 50%;
   left: 45vw;
   top: 257vh;
   z-index: -1;
+  @media screen and (min-width: 768px) and (max-width: 990px) {
+    width: 100px;
+    height: 100px;
+    left: 50vw;
+    top: 250vh;
+  }
+  @media screen and (min-width: 991px) {
+  width: 150px;
+  height: 150px;
+  }
     }
 
 .glass12 {
@@ -376,11 +436,10 @@ border-radius: 50%;
    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
    backdrop-filter: blur( 7.5px );
    -webkit-backdrop-filter: blur( 7.5px );
-   border-radius: 10px;
    border: 1px solid rgba( 255, 255, 255, 0.18 );
-   width: 50px;
-   height: 50px;
    border-radius: 50%;
+   width: 100%;
+   height: 100%;
     }
 
  /*BUBBLE 13 right hand side aobve about me bubble, the sizing for this bubbles is same as bubble 2 and 5*/
@@ -395,6 +454,14 @@ border-radius: 50%;
   right: 4vw;
   top: 240vh;
   z-index: -1;
+  @media screen and (min-width: 768px) and (max-width: 990px) {
+    width: 100px;
+    height: 100px;
+  }
+  @media screen and (min-width: 991px) {
+  width: 150px;
+  height: 150px;
+  }
     }
 
 .glass13 {
@@ -402,11 +469,10 @@ border-radius: 50%;
    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
    backdrop-filter: blur( 7.5px );
    -webkit-backdrop-filter: blur( 7.5px );
-   border-radius: 10px;
    border: 1px solid rgba( 255, 255, 255, 0.18 );
-   width: 50px;
-   height: 50px;
    border-radius: 50%;
+   width: 100%;
+   height: 100%;
     }
 
 /*BUBBLE 14 left hand side above about me bubble, the sizing for this bubbles is same as bubble 2*/
@@ -421,6 +487,14 @@ border-radius: 50%;
   left: 10vw;
   top: 14vh;  
   z-index: -1;
+  @media screen and (min-width: 768px) and (max-width: 990px) {
+    width: 100px;
+    height: 100px;
+  }
+  @media screen and (min-width: 991px) {
+  width: 150px;
+  height: 150px;
+  }
     }
 
 .glass14 {
@@ -428,11 +502,10 @@ border-radius: 50%;
    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
    backdrop-filter: blur( 7.5px );
    -webkit-backdrop-filter: blur( 7.5px );
-   border-radius: 10px;
    border: 1px solid rgba( 255, 255, 255, 0.18 );
-   width: 50px;
-   height: 50px;
    border-radius: 50%;
+   width: 100%;
+   height: 100%;
     }
 
 /*BUBBLE 15 big About Me bubble*/
@@ -447,8 +520,8 @@ border-radius: 50%;
   left: 30vw;
   top: 1vh;
   @media screen and (min-width: 768px) and (max-width: 990px) {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 @media screen and (min-width: 991px) {
   width: 300px;
@@ -460,19 +533,10 @@ border-radius: 50%;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 7.5px );
   -webkit-backdrop-filter: blur( 7.5px );
-  border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-  width: 175px;
-  height: 171px;
   border-radius: 50%;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
-    width: 200px;
-    height: 200px;
-  }
-  @media screen and (min-width: 991px) {
-  width: 300px;
-  height: 300px;
-  }
+  width: 100%;
+  height: 100%;
 }
 
 .project-heading /*This is for the text alignent*/ {
@@ -500,6 +564,14 @@ left: 70vw;
 top: 265
 vh; 
 z-index: -1;
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  width: 100px;
+  height: 100px;
+}
+@media screen and (min-width: 991px) {
+width: 150px;
+height: 150px;
+}
   }
 
 .glass16 {
@@ -507,11 +579,10 @@ z-index: -1;
  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
  backdrop-filter: blur( 7.5px );
  -webkit-backdrop-filter: blur( 7.5px );
- border-radius: 10px;
  border: 1px solid rgba( 255, 255, 255, 0.18 );
- width: 50px;
- height: 50px;
  border-radius: 50%;
+ width: 100%;
+ height: 100%;
   }
 
 
@@ -524,9 +595,17 @@ z-index: -1;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .18); 
   border-radius: 50%;
   position: absolute;
-  left: 9;
-  top: 7px;
+  left: 9vw;
+  top: -8vh;
   z-index: -1;
+  @media screen and (min-width: 768px) and (max-width: 990px) {
+    width: 100px;
+    height: 100px;
+  }
+  @media screen and (min-width: 991px) {
+  width: 150px;
+  height: 150px;
+  }
     }
 
 .glass17 {
@@ -534,11 +613,10 @@ z-index: -1;
    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
    backdrop-filter: blur( 7.5px );
    -webkit-backdrop-filter: blur( 7.5px );
-   border-radius: 10px;
    border: 1px solid rgba( 255, 255, 255, 0.18 );
-   width: 50px;
-   height: 50px;
    border-radius: 50%;
+   width: 100%;
+   height: 100%;
     }
 
 
@@ -555,8 +633,8 @@ z-index: -1;
   right: 30vw;
   top: 3vh;
   @media screen and (min-width: 768px) and (max-width: 990px) {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 @media screen and (min-width: 991px) {
   width: 300px;
@@ -568,19 +646,10 @@ z-index: -1;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 7.5px );
   -webkit-backdrop-filter: blur( 7.5px );
-  border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-  width: 175px;
-  height: 171px;
   border-radius: 50%;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
-    width: 200px;
-    height: 200px;
-  }
-  @media screen and (min-width: 991px) {
-  width: 300px;
-  height: 300px;
-  }
+  width: 100%;
+  height: 100%;
 }
 
   .project-heading /*This is for the text alignent*/ {
@@ -604,9 +673,19 @@ z-index: -1;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .18); 
   border-radius: 50%;
   position: absolute;
-  right: 5vw;
-  top: 15vh;
+  right: -8vw;
+  top: 12vh;
   z-index: -1;
+  @media screen and (min-width: 768px) and (max-width: 990px) {
+    width: 100px;
+    height: 100px;
+    top: 15vh;
+  }
+  @media screen and (min-width: 991px) {
+  width: 150px;
+  height: 150px;
+  top: 10vh;
+  }
     }
 
 .glass19 {
@@ -614,11 +693,10 @@ z-index: -1;
    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
    backdrop-filter: blur( 7.5px );
    -webkit-backdrop-filter: blur( 7.5px );
-   border-radius: 10px;
    border: 1px solid rgba( 255, 255, 255, 0.18 );
-   width: 50px;
-   height: 50px;
    border-radius: 50%;
+   width: 100%;
+   height: 100%;
     }
 
 /*BUBBLE 20*/
@@ -630,9 +708,19 @@ z-index: -1;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .18); 
   border-radius: 50%;
   position: absolute;
-  left: 9vw;
+  left: 0vw;
   top: 20vh; 
   z-index: -1;
+  @media screen and (min-width: 768px) and (max-width: 990px) {
+    width: 100px;
+    height: 100px;
+    top: 15vh;
+  }
+  @media screen and (min-width: 991px) {
+  width: 150px;
+  height: 150px;
+  top: 10vh;
+  }
     }
 
 .glass20 {
@@ -640,9 +728,8 @@ z-index: -1;
    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
    backdrop-filter: blur( 7.5px );
    -webkit-backdrop-filter: blur( 7.5px );
-   border-radius: 10px;
    border: 1px solid rgba( 255, 255, 255, 0.18 );
-   width: 50px;
-   height: 50px;
    border-radius: 50%;
+   width: 100%;
+   height: 100%;
     }

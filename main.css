@@ -369,7 +369,7 @@ a {
   align-items: center;
   justify-content: space-evenly;
   padding: 20px;
-  margin-top: 200px;
+  margin-top: 30vh;
 }
 
 /*Contains the styling of the bubbles and their position*/
@@ -402,8 +402,8 @@ a {
 }
 @media screen and (min-width: 768px) and (max-width: 990px) {
   .bubble1-container {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
 }
 @media screen and (min-width: 991px) {
@@ -420,21 +420,9 @@ a {
   -webkit-backdrop-filter: blur(7.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 175px;
-  height: 171px;
   border-radius: 50%;
-}
-@media screen and (min-width: 768px) and (max-width: 990px) {
-  .glass1 {
-    width: 250px;
-    height: 250px;
-  }
-}
-@media screen and (min-width: 991px) {
-  .glass1 {
-    width: 350px;
-    height: 350px;
-  }
+  width: 100%;
+  height: 100%;
 }
 
 /*BUBBLE 2 TOP LEFT HAND CORNER*/
@@ -448,6 +436,18 @@ a {
   left: 10vw;
   top: 15vh;
 }
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .bubble2-container {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .bubble2-container {
+    width: 150px;
+    height: 150px;
+  }
+}
 
 .glass2 {
   background: rgba(255, 255, 255, 0.55);
@@ -459,6 +459,8 @@ a {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /*BUBBLE 3 TOP RIGHT HAND CORNER*/
@@ -471,6 +473,18 @@ a {
   position: absolute;
   right: 1vw;
   top: 5vh;
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .bubble3-container {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .bubble3-container {
+    width: 180px;
+    height: 180px;
+  }
 }
 .bubble3-container .glass3 {
   background: rgba(255, 255, 255, 0.55);
@@ -494,17 +508,28 @@ a {
   right: 5vw;
   top: 75vh;
 }
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .bubble4-container {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .bubble4-container {
+    width: 180px;
+    height: 180px;
+  }
+}
 
 .glass4 {
   background: rgba(255, 255, 255, 0.55);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7.5px);
   -webkit-backdrop-filter: blur(7.5px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 60px;
-  height: 60px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /*BUBBLE 5 left  bubble below CTAB on hero page, the sizing for this bubbles is same as bubble 2*/
@@ -518,6 +543,18 @@ a {
   left: 2vw;
   top: 90vh;
 }
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .bubble5-container {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .bubble5-container {
+    width: 150px;
+    height: 150px;
+  }
+}
 
 .glass5 {
   background: rgba(255, 255, 255, 0.55);
@@ -526,9 +563,9 @@ a {
   -webkit-backdrop-filter: blur(7.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /*BUBBLE 6 below right hand sdie above big prjects bubble*/
@@ -553,6 +590,8 @@ a {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /*BUBBLE 7 big prjects bubble*/
@@ -569,8 +608,8 @@ a {
 }
 @media screen and (min-width: 768px) and (max-width: 990px) {
   .bubble7-container {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
   }
 }
 @media screen and (min-width: 991px) {
@@ -590,18 +629,8 @@ a {
   width: 175px;
   height: 171px;
   border-radius: 50%;
-}
-@media screen and (min-width: 768px) and (max-width: 990px) {
-  .glass7 {
-    width: 200px;
-    height: 200px;
-  }
-}
-@media screen and (min-width: 991px) {
-  .glass7 {
-    width: 300px;
-    height: 300px;
-  }
+  width: 100%;
+  height: 100%;
 }
 
 .project-heading {
@@ -627,17 +656,28 @@ a {
   top: 140vh;
   z-index: -1;
 }
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .bubble8-container {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .bubble8-container {
+    width: 150px;
+    height: 150px;
+  }
+}
 
 .glass8 {
   background: rgba(255, 255, 255, 0.55);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7.5px);
   -webkit-backdrop-filter: blur(7.5px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /*BUBBLE 9 left hand side below projects bubble, the sizing for this bubbles is same as bubble 3*/
@@ -652,17 +692,28 @@ a {
   left: 4vw;
   top: 160vh;
 }
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .bubble9-container {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .bubble9-container {
+    width: 150px;
+    height: 150px;
+  }
+}
 
 .glass9 {
   background: rgba(255, 255, 255, 0.55);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7.5px);
   -webkit-backdrop-filter: blur(7.5px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /*BUBBLE 10 right hand side on project 2, the sizing for this bubbles is same as bubble 3*/
@@ -678,6 +729,18 @@ a {
   top: 200vh;
   z-index: -1;
 }
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .bubble10-container {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .bubble10-container {
+    width: 150px;
+    height: 150px;
+  }
+}
 
 .glass10 {
   background: rgba(255, 255, 255, 0.55);
@@ -686,9 +749,9 @@ a {
   -webkit-backdrop-filter: blur(7.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /*BUBBLE 11 left hand side on project 2, the sizing for this bubbles is same as bubble 3*/
@@ -704,17 +767,28 @@ a {
   top: 220vh;
   z-index: -1;
 }
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .bubble11-container {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .bubble11-container {
+    width: 150px;
+    height: 150px;
+  }
+}
 
 .glass11 {
   background: rgba(255, 255, 255, 0.55);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7.5px);
   -webkit-backdrop-filter: blur(7.5px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /*BUBBLE 12 middle below project 3, the sizing for this bubbles is same as bubble 2 and 5*/
@@ -730,17 +804,30 @@ a {
   top: 257vh;
   z-index: -1;
 }
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .bubble12-container {
+    width: 100px;
+    height: 100px;
+    left: 50vw;
+    top: 250vh;
+  }
+}
+@media screen and (min-width: 991px) {
+  .bubble12-container {
+    width: 150px;
+    height: 150px;
+  }
+}
 
 .glass12 {
   background: rgba(255, 255, 255, 0.55);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7.5px);
   -webkit-backdrop-filter: blur(7.5px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /*BUBBLE 13 right hand side aobve about me bubble, the sizing for this bubbles is same as bubble 2 and 5*/
@@ -755,17 +842,28 @@ a {
   top: 240vh;
   z-index: -1;
 }
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .bubble13-container {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .bubble13-container {
+    width: 150px;
+    height: 150px;
+  }
+}
 
 .glass13 {
   background: rgba(255, 255, 255, 0.55);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7.5px);
   -webkit-backdrop-filter: blur(7.5px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /*BUBBLE 14 left hand side above about me bubble, the sizing for this bubbles is same as bubble 2*/
@@ -781,17 +879,28 @@ a {
   top: 14vh;
   z-index: -1;
 }
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .bubble14-container {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .bubble14-container {
+    width: 150px;
+    height: 150px;
+  }
+}
 
 .glass14 {
   background: rgba(255, 255, 255, 0.55);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7.5px);
   -webkit-backdrop-filter: blur(7.5px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /*BUBBLE 15 big About Me bubble*/
@@ -808,8 +917,8 @@ a {
 }
 @media screen and (min-width: 768px) and (max-width: 990px) {
   .bubble15-container {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
   }
 }
 @media screen and (min-width: 991px) {
@@ -824,23 +933,10 @@ a {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7.5px);
   -webkit-backdrop-filter: blur(7.5px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 175px;
-  height: 171px;
   border-radius: 50%;
-}
-@media screen and (min-width: 768px) and (max-width: 990px) {
-  .glass15 {
-    width: 200px;
-    height: 200px;
-  }
-}
-@media screen and (min-width: 991px) {
-  .glass15 {
-    width: 300px;
-    height: 300px;
-  }
+  width: 100%;
+  height: 100%;
 }
 
 .project-heading {
@@ -866,17 +962,28 @@ a {
   top: 265 vh;
   z-index: -1;
 }
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .bubble16-container {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .bubble16-container {
+    width: 150px;
+    height: 150px;
+  }
+}
 
 .glass16 {
   background: rgba(255, 255, 255, 0.55);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7.5px);
   -webkit-backdrop-filter: blur(7.5px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /*BUBBLE 17 */
@@ -887,9 +994,21 @@ a {
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
   border-radius: 50%;
   position: absolute;
-  left: 9;
-  top: 7px;
+  left: 9vw;
+  top: -8vh;
   z-index: -1;
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .bubble17-container {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .bubble17-container {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 .glass17 {
@@ -897,11 +1016,10 @@ a {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7.5px);
   -webkit-backdrop-filter: blur(7.5px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /*BUBBLE 18big Contact bubble*/
@@ -918,8 +1036,8 @@ a {
 }
 @media screen and (min-width: 768px) and (max-width: 990px) {
   .bubble18-container {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
   }
 }
 @media screen and (min-width: 991px) {
@@ -934,23 +1052,10 @@ a {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7.5px);
   -webkit-backdrop-filter: blur(7.5px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 175px;
-  height: 171px;
   border-radius: 50%;
-}
-@media screen and (min-width: 768px) and (max-width: 990px) {
-  .glass18 {
-    width: 200px;
-    height: 200px;
-  }
-}
-@media screen and (min-width: 991px) {
-  .glass18 {
-    width: 300px;
-    height: 300px;
-  }
+  width: 100%;
+  height: 100%;
 }
 
 .project-heading {
@@ -972,9 +1077,23 @@ a {
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
   border-radius: 50%;
   position: absolute;
-  right: 5vw;
-  top: 15vh;
+  right: -8vw;
+  top: 12vh;
   z-index: -1;
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .bubble19-container {
+    width: 100px;
+    height: 100px;
+    top: 15vh;
+  }
+}
+@media screen and (min-width: 991px) {
+  .bubble19-container {
+    width: 150px;
+    height: 150px;
+    top: 10vh;
+  }
 }
 
 .glass19 {
@@ -982,11 +1101,10 @@ a {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7.5px);
   -webkit-backdrop-filter: blur(7.5px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /*BUBBLE 20*/
@@ -997,9 +1115,23 @@ a {
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.18);
   border-radius: 50%;
   position: absolute;
-  left: 9vw;
+  left: 0vw;
   top: 20vh;
   z-index: -1;
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .bubble20-container {
+    width: 100px;
+    height: 100px;
+    top: 15vh;
+  }
+}
+@media screen and (min-width: 991px) {
+  .bubble20-container {
+    width: 150px;
+    height: 150px;
+    top: 10vh;
+  }
 }
 
 .glass20 {
@@ -1007,9 +1139,8 @@ a {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(7.5px);
   -webkit-backdrop-filter: blur(7.5px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
