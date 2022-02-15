@@ -1,18 +1,13 @@
-
-
 .navigation {
     height: 10vh;
     width: 100vw;
     position: fixed;
-    justify-items: flex-end;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
     }
 
-
-    .header {
+.header {
         height: 110vh;
         display: flex;
         flex-direction: column;
@@ -22,9 +17,7 @@
         align-content: space-between;
     }
 
-
-
-    .intro  {
+.intro  {
 
     &__heading {
         width: 150px;
@@ -51,36 +44,25 @@
         @media screen and (min-width: 991px) {
             white-space: nowrap;
         }
-    }   
+    }  
     }
 
-
-    .sub-heading {
-        justify-content: center;
-        display: flex;
-        margin: 40px;
-    }
-
-
-    .project-section  /*This was the container re-make*/ { 
+.project-section { 
         margin-top: 8vh;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         width: 100vw;
-        
         @media screen and (min-width: 768px) and (max-width: 990px) {
         flex-direction: row;
         flex-wrap: wrap; 
         margin-top: 9vh;
-                }
+        }
         @media screen and (min-width: 991px) {
         flex-direction: row;
-                } 
+        } 
     }
-
-
 
 .card {
         position: relative; /*this keeps the overlay within*/
@@ -89,10 +71,8 @@
         align-items: center;
         margin: 50px;
         width: 259px;
-
         @media screen and (min-width: 768px) and (max-width: 990px) {
             width: 362px;
-         
         }
         @media screen and (min-width: 991px) {
             width: 460px;
@@ -111,7 +91,6 @@
     }
 }
 
-
 .info-page {
     margin-top: 8vh;
     width: 100vw;
@@ -119,11 +98,10 @@
     flex-direction: column;
     padding-top: 200px;
 
-    &__about-me {  /* NOT WORKING */
-        
+    &__about-me { 
         position: absolute;
-        top: 287vh;
         text-align: center;
+        top: 287vh;
         width: 100vw;
         z-index: 9999;
     }
@@ -134,14 +112,13 @@
     align-items: center;
     padding-top: 40px;
     margin: 20px;
-   }
+    }
 
     &__info {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /*width: 80px;*/
     font-size: 10px;
     margin: 10px;
     }
@@ -154,7 +131,6 @@
     margin: 10px;
     width: 100%;
     height: 100%;
-
     @media screen and (min-width: 768px) and (max-width: 990px) {
         width: 362px;
     }
@@ -170,4 +146,4 @@
     justify-content: space-evenly;
     padding: 20px;
     margin-top: 30vh;
-}
+}  
