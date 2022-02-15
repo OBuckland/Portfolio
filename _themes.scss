@@ -4,9 +4,11 @@
 
 .header {
   position: relative;
+  width: 100vw;
 }
 .project-section {
   position: relative;
+  width: 100%;
 }
 .info-page {
   position: relative;
@@ -15,6 +17,19 @@
 .contact-section {
   position: relative;
 }
+
+
+  .project-heading /*This is for the text alignent*/ {
+  
+    line-height: 170px;
+     
+    @media screen and (min-width: 768px) and (max-width: 990px) {
+      line-height: 250px;
+  }
+    @media screen and (min-width: 991px) {
+     line-height: 300px; 
+  } 
+  }
 
 
 .bubble1-container {
@@ -138,6 +153,7 @@ height: 100%;
   @media screen and (min-width: 768px) and (max-width: 990px) {
     width: 120px;
     height: 120px;
+    right: -6vw;
   }
   @media screen and (min-width: 991px) {
   width: 180px;
@@ -229,15 +245,19 @@ height: 100%;
   text-align:center;
   position: absolute;
   top: 100vh;
-  left: 30vw;
+  left: 50vw;
+  margin: 0;
+
+ 
+
   @media screen and (min-width: 768px) and (max-width: 990px) {
     width: 250px;
     height: 250px;
-}
-@media screen and (min-width: 991px) {
+  }
+  @media screen and (min-width: 991px) {
   width: 300px;
   height: 300px;
-}
+  }
 }
 .glass7 {
   background: rgba( 255, 255, 255, 0.55 );
@@ -253,17 +273,9 @@ height: 100%;
   height: 100%;
 }
 
-.project-heading /*This is for the text alignent*/ {
-  
-  line-height: 170px;
-   /*
-  @media screen and (min-width: 768px) and (max-width: 990px) {
-    line-height: 190px;
-}
-  @media screen and (min-width: 991px) {
-   line-height: 300px; 
-} */
-}
+.project-heading
+
+
 
 
 /*BUBBLE 8 right hand side below projects bubble, the sizing for this bubbles is same as bubble 2 and 5*/
@@ -422,7 +434,7 @@ height: 100%;
   @media screen and (min-width: 768px) and (max-width: 990px) {
     width: 100px;
     height: 100px;
-    left: 50vw;
+    right: 1vw;
     top: 250vh;
   }
   @media screen and (min-width: 991px) {
@@ -457,6 +469,7 @@ height: 100%;
   @media screen and (min-width: 768px) and (max-width: 990px) {
     width: 100px;
     height: 100px;
+    right: -8vw;
   }
   @media screen and (min-width: 991px) {
   width: 150px;
@@ -490,6 +503,7 @@ height: 100%;
   @media screen and (min-width: 768px) and (max-width: 990px) {
     width: 100px;
     height: 100px;
+    left: -5vw;
   }
   @media screen and (min-width: 991px) {
   width: 150px;
@@ -539,17 +553,7 @@ height: 100%;
   height: 100%;
 }
 
-.project-heading /*This is for the text alignent*/ {
-  
-  line-height: 170px;
-   /*
-  @media screen and (min-width: 768px) and (max-width: 990px) {
-    line-height: 190px;
-}
-  @media screen and (min-width: 991px) {
-   line-height: 300px; 
-} */
-}
+
 
 
 /*BUBBLE 16*/
@@ -560,13 +564,15 @@ background-image: linear-gradient(311deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)
 box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .18); 
 border-radius: 50%;
 position: absolute;
-left: 70vw;
-top: 265
-vh; 
+right: 30vw;
+top: 45vh; 
 z-index: -1;
 @media screen and (min-width: 768px) and (max-width: 990px) {
   width: 100px;
   height: 100px;
+  right: -12vw;
+  top: 50vh;
+
 }
 @media screen and (min-width: 991px) {
 width: 150px;
@@ -601,6 +607,7 @@ height: 150px;
   @media screen and (min-width: 768px) and (max-width: 990px) {
     width: 100px;
     height: 100px;
+    top: -12vh;
   }
   @media screen and (min-width: 991px) {
   width: 150px;
@@ -652,17 +659,7 @@ height: 150px;
   height: 100%;
 }
 
-  .project-heading /*This is for the text alignent*/ {
-  
-    line-height: 170px;
-     /*
-    @media screen and (min-width: 768px) and (max-width: 990px) {
-      line-height: 190px;
-  }
-    @media screen and (min-width: 991px) {
-     line-height: 300px; 
-  } */
-  }
+
 
 /*BUBBLE 19*/
 
@@ -715,6 +712,7 @@ height: 150px;
     width: 100px;
     height: 100px;
     top: 15vh;
+    left: -9vw;
   }
   @media screen and (min-width: 991px) {
   width: 150px;
