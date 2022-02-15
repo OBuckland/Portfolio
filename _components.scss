@@ -92,6 +92,7 @@
     border: 5px solid #FCDDEC;
     box-sizing: border-box;
     text-align: center;
+    z-index: 999;
 
     @media screen and (min-width: 500px) and (max-width: 990px) {
         font-size: 20px;  }
