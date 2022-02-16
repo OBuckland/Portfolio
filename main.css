@@ -23,12 +23,12 @@ a {
   font-weight: bold;
   z-index: 9999;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .navigation {
     font-size: 18px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .navigation {
     font-size: 24px;
   }
@@ -41,12 +41,12 @@ a {
 .intro__heading {
   font-weight: bold;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .intro__heading {
     font-size: 36px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .intro__heading {
     font-size: 70px;
   }
@@ -54,12 +54,12 @@ a {
 .intro__sub-heading {
   font-weight: normal;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .intro__sub-heading {
     font-size: 36px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .intro__sub-heading {
     font-size: 70px;
   }
@@ -200,7 +200,7 @@ a {
 }
 @media screen and (min-width: 991px) {
   .footer > * {
-    font-size: 30px;
+    font-size: 50px;
   }
 }
 
@@ -269,12 +269,13 @@ a {
   .project-section {
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 9vh;
+    margin-top: 20vh;
   }
 }
 @media screen and (min-width: 991px) {
   .project-section {
     flex-direction: row;
+    margin-top: 25vh;
   }
 }
 
@@ -383,16 +384,7 @@ a {
   position: relative;
 }
 
-.box {
-  position: absolute;
-  border: 5px solid #FCDDEC;
-  box-sizing: border-box;
-  left: 25vw;
-  top: 1vh;
-  width: 175px;
-  height: 171px;
-}
-
+/*This is for the text alignent within the bubbles*/
 .project-heading {
   line-height: 170px;
 }
@@ -407,6 +399,27 @@ a {
   }
 }
 
+/*This is for the boxes outside the sub-heading bubbles*/
+.box {
+  position: absolute;
+  border: 5px solid #FCDDEC;
+  box-sizing: border-box;
+  width: 175px;
+  height: 171px;
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .box {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .box {
+    width: 300px;
+    height: 300px;
+  }
+}
+
 /*Large bubble on hero page*/
 .bubble1-container {
   width: 175px;
@@ -418,16 +431,18 @@ a {
   top: 40vh;
   left: 55vw;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1000px) {
   .bubble1-container {
     width: 300px;
     height: 300px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1000px) {
   .bubble1-container {
     width: 350px;
     height: 350px;
+    left: 65vw;
+    top: 35vh;
   }
 }
 .bubble1-container .glass1 {
@@ -490,13 +505,13 @@ a {
   right: 1vw;
   top: 5vh;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble3-container {
     width: 120px;
     height: 120px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1101px) {
   .bubble3-container {
     width: 180px;
     height: 180px;
@@ -524,17 +539,18 @@ a {
   right: 5vw;
   top: 75vh;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble4-container {
     width: 120px;
     height: 120px;
     right: -6vw;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1101px) {
   .bubble4-container {
     width: 180px;
     height: 180px;
+    top: 85vh;
   }
 }
 .bubble4-container .glass4 {
@@ -559,13 +575,13 @@ a {
   left: 2vw;
   top: 90vh;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble5-container {
     width: 100px;
     height: 100px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1101px) {
   .bubble5-container {
     width: 150px;
     height: 150px;
@@ -619,7 +635,7 @@ a {
   left: 25vw;
   margin: 0;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble7-container {
     width: 250px;
     height: 250px;
@@ -627,7 +643,7 @@ a {
     top: 105vh;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1101px) {
   .bubble7-container {
     width: 300px;
     height: 300px;
@@ -660,13 +676,13 @@ a {
   top: 140vh;
   z-index: -1;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble8-container {
     width: 100px;
     height: 100px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1101px) {
   .bubble8-container {
     width: 120px;
     height: 120px;
@@ -694,13 +710,13 @@ a {
   left: 4vw;
   top: 160vh;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble9-container {
     width: 100px;
     height: 100px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1101px) {
   .bubble9-container {
     width: 150px;
     height: 150px;

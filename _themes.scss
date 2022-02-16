@@ -12,16 +12,9 @@
 .contact-section {
   position: relative;
 }
-.box {
-  position: absolute;
-  border: 5px solid #FCDDEC;
-  box-sizing: border-box;
-  left: 25vw;
-  top: 1vh;
-  width: 175px;
-  height: 171px;
-}
-.project-heading /*This is for the text alignent*/ {
+
+/*This is for the text alignent within the bubbles*/
+.project-heading {
     line-height: 170px;
     @media screen and (min-width: 768px) and (max-width: 990px) {
       line-height: 250px;
@@ -30,6 +23,23 @@
      line-height: 300px; 
   } 
 }
+
+/*This is for the boxes outside the sub-heading bubbles*/
+.box {
+  position: absolute;
+  border: 5px solid #FCDDEC;
+  box-sizing: border-box;
+  width: 175px;
+  height: 171px;
+  @media screen and (min-width: 768px) and (max-width: 990px) {
+    width: 250px;
+    height: 250px;
+  }
+  @media screen and (min-width: 991px) {
+    width: 300px;
+    height: 300px;
+  }
+ }
 
 /*Large bubble on hero page*/
 .bubble1-container {
@@ -41,13 +51,15 @@
   position: absolute;
   top: 40vh;
   left: 55vw;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1000px) {
     width: 300px;
     height: 300px;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1000px) {
     width: 350px;
     height: 350px;
+    left: 65vw;
+    top: 35vh;
   }
 
 .glass1 {
@@ -107,11 +119,11 @@
   position: absolute;
   right: 1vw;
   top: 5vh;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 120px;
     height: 120px;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1101px) {
    width: 180px;
     height: 180px;
   }
@@ -138,14 +150,15 @@
   position: absolute;
   right: 5vw;
   top: 75vh;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 120px;
     height: 120px;
     right: -6vw;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1101px) {
     width: 180px;
     height: 180px;
+    top: 85vh;
   }
 
 .glass4 {
@@ -171,11 +184,11 @@
   position: absolute;
   left: 2vw;
   top: 90vh;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 100px;
     height: 100px;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1101px) {
     width: 150px;
     height: 150px;
   } 
@@ -229,13 +242,13 @@
   top: 100vh;
   left: 25vw;
   margin: 0;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 250px;
     height: 250px;
     left: 35vw;
     top: 105vh;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1101px) {
     width: 300px;
     height: 300px;
     left: 42vw;
@@ -267,11 +280,11 @@
   right: 1vw;
   top: 140vh;
   z-index: -1;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 100px;
     height: 100px;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1101px) {
     width: 120px;
     height: 120px;
   }
@@ -298,11 +311,11 @@
   position: absolute;
   left: 4vw;
   top: 160vh;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 100px;
     height: 100px;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1101px) {
     width: 150px;
     height: 150px;
   }
