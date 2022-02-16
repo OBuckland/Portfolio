@@ -16,10 +16,10 @@
 /*This is for the text alignent within the bubbles*/
 .project-heading {
     line-height: 170px;
-    @media screen and (min-width: 768px) and (max-width: 990px) {
+    @media screen and (min-width: 768px) and (max-width: 1100px) {
       line-height: 250px;
   }
-    @media screen and (min-width: 991px) {
+    @media screen and (min-width: 1100px) {
      line-height: 300px; 
   } 
 }
@@ -31,11 +31,11 @@
   box-sizing: border-box;
   width: 175px;
   height: 171px;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 250px;
     height: 250px;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1100px) {
     width: 300px;
     height: 300px;
   }
@@ -51,11 +51,11 @@
   position: absolute;
   top: 40vh;
   left: 55vw;
-  @media screen and (min-width: 768px) and (max-width: 1000px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 300px;
     height: 300px;
   }
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1100px) {
     width: 350px;
     height: 350px;
     left: 65vw;
@@ -85,11 +85,11 @@
   position: absolute;
   left: 10vw;
   top: 15vh;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 100px;
     height: 100px;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1100px) {
     width: 150px;
     height: 150px;
   }
@@ -123,7 +123,7 @@
     width: 120px;
     height: 120px;
   }
-  @media screen and (min-width: 1101px) {
+  @media screen and (min-width: 1100px) {
    width: 180px;
     height: 180px;
   }
@@ -155,7 +155,7 @@
     height: 120px;
     right: -6vw;
   }
-  @media screen and (min-width: 1101px) {
+  @media screen and (min-width: 1100px) {
     width: 180px;
     height: 180px;
     top: 85vh;
@@ -188,7 +188,7 @@
     width: 100px;
     height: 100px;
   }
-  @media screen and (min-width: 1101px) {
+  @media screen and (min-width: 1100px) {
     width: 150px;
     height: 150px;
   } 
@@ -248,7 +248,7 @@
     left: 35vw;
     top: 105vh;
   }
-  @media screen and (min-width: 1101px) {
+  @media screen and (min-width: 1100px) {
     width: 300px;
     height: 300px;
     left: 42vw;
@@ -284,7 +284,7 @@
     width: 100px;
     height: 100px;
   }
-  @media screen and (min-width: 1101px) {
+  @media screen and (min-width: 1100px) {
     width: 120px;
     height: 120px;
   }
@@ -315,7 +315,7 @@
     width: 100px;
     height: 100px;
   }
-  @media screen and (min-width: 1101px) {
+  @media screen and (min-width: 1100px) {
     width: 150px;
     height: 150px;
   }
@@ -342,10 +342,11 @@
    right: 0vw;
    top: 200vh;
    z-index: -1;
-   @media screen and (min-width: 768px) and (max-width: 990px) {       width: 100px;
+   @media screen and (min-width: 768px) and (max-width: 1100px) {      
+     width: 100px;
      height: 100px;
       }
-   @media screen and (min-width: 991px) {
+   @media screen and (min-width: 1100px) {
     width: 150px;
     height: 150px;
       }
@@ -374,11 +375,11 @@
   left: 1vw;
   top: 220vh;
   z-index: -1;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 100px;
     height: 100px;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1100px) {
   width: 150px;
   height: 150px;
   left: -8vw;
@@ -407,13 +408,13 @@
   left: 45vw;
   top: 257vh;
   z-index: -1;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 100px;
     height: 100px;
     right: 1vw;
     top: 250vh;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1100px) {
     width: 150px;
     height: 150px;
   }
@@ -441,12 +442,12 @@
   right: 4vw;
   top: 240vh;
   z-index: -1;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 100px;
     height: 100px;
     right: -8vw;
     }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1100px) {
     width: 150px;
     height: 150px;
     }
@@ -474,12 +475,12 @@
   left: 10vw;
   top: 14vh;  
   z-index: -1;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 100px;
     height: 100px;
     left: -5vw;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1100px) {
     width: 150px;
     height: 150px;
   }
@@ -507,13 +508,13 @@
   position: absolute;
   left: 25vw;
   top: 1vh;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 250px;
     height: 250px;
     left: 35vw;
     top: -5vh;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1100px) {
     width: 300px;
     height: 300px;
     left: 42vw;
@@ -542,13 +543,13 @@
   right: 30vw;
   top: 45vh; 
   z-index: -1;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 100px;
     height: 100px;
     right: -12vw;
     top: 50vh;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1100px) {
     width: 150px;
     height: 150px;
   }
@@ -576,12 +577,12 @@
   left: 9vw;
   top: -8vh;
   z-index: -1;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 100px;
     height: 100px;
     top: -12vh;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1100px) {
    width: 150px;
     height: 150px;
   }
@@ -609,12 +610,12 @@
   position: absolute;
   left: 25vw;
   top: 3vh;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 250px;
     height: 250px;
     left: 35vw;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1100px) {
     width: 300px;
     height: 300px;
     left: 42vw;
@@ -643,12 +644,12 @@
   right: -8vw;
   top: 12vh;
   z-index: -1;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 100px;
     height: 100px;
     top: 15vh;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1100px) {
     width: 120px;
     height: 120px;
   top: 10vh;
@@ -677,13 +678,13 @@
   left: 0vw;
   top: 20vh; 
   z-index: -1;
-  @media screen and (min-width: 768px) and (max-width: 990px) {
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     width: 100px;
     height: 100px;
     top: 15vh;
     left: -9vw;
   }
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 1100px) {
     width: 120px;
     height: 120px;
   top: 10vh;

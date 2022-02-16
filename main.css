@@ -74,12 +74,12 @@ a {
   font-size: 14px;
   background-color: rgba(255, 255, 255, 0.9);
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .intro__button {
     font-size: 18px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .intro__button {
     font-size: 24px;
   }
@@ -89,12 +89,12 @@ a {
   font-size: 18px;
   font-weight: bold;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .sub-heading {
     font-size: 30px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .sub-heading {
     font-size: 50px;
   }
@@ -105,12 +105,12 @@ a {
   font-weight: bold;
   z-index: 9999;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .project-heading {
     font-size: 30px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .project-heading {
     font-size: 50px;
   }
@@ -122,12 +122,17 @@ a {
   text-align: center;
   z-index: 999;
 }
-@media screen and (min-width: 500px) and (max-width: 990px) {
+@media screen and (min-width: 500px) and (max-width: 1100px) {
   .card {
     font-size: 20px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) and (max-width: 1597px) {
+  .card {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1597px) {
   .card {
     font-size: 30px;
   }
@@ -170,22 +175,18 @@ a {
   box-sizing: border-box;
   max-width: 40vw;
 }
-@media screen and (min-width: 500px) and (max-width: 990px) {
+@media screen and (min-width: 500px) and (max-width: 1100px) {
   .info-page__info1 {
     font-size: 20px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .info-page__info1 {
     font-size: 30px;
   }
 }
 .info-page__photo img {
-  /*border: 5px solid #FCDDEC;
-  box-sizing: border-box;
-  display: flex;
-  max-width: 20vh;
-  width: 10vmax; */
+  max-width: 20vw;
   border: 5px solid #FCDDEC;
   box-sizing: border-box;
 }
@@ -193,12 +194,12 @@ a {
 .footer > * {
   font-size: 18px;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .footer > * {
     font-size: 30px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .footer > * {
     font-size: 50px;
   }
@@ -229,12 +230,12 @@ a {
   word-wrap: break-word;
   word-break: break-word;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .intro__heading {
     white-space: nowrap;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .intro__heading {
     white-space: nowrap;
   }
@@ -246,33 +247,33 @@ a {
   word-break: break-word;
   font-weight: normal;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .intro__sub-heading {
     white-space: nowrap;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .intro__sub-heading {
     white-space: nowrap;
   }
 }
 
 .project-section {
-  margin-top: 8vh;
+  margin-top: 12vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 100vw;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .project-section {
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 20vh;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .project-section {
     flex-direction: row;
     margin-top: 25vh;
@@ -288,12 +289,12 @@ a {
   margin: 50px;
   width: 259px;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .card {
     width: 362px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .card {
     width: 460px;
   }
@@ -348,12 +349,12 @@ a {
   width: 100%;
   height: 100%;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .info-page__photo img {
     width: 362px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .info-page__photo img {
     width: 460px;
   }
@@ -388,12 +389,12 @@ a {
 .project-heading {
   line-height: 170px;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .project-heading {
     line-height: 250px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .project-heading {
     line-height: 300px;
   }
@@ -407,13 +408,13 @@ a {
   width: 175px;
   height: 171px;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .box {
     width: 250px;
     height: 250px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .box {
     width: 300px;
     height: 300px;
@@ -431,13 +432,13 @@ a {
   top: 40vh;
   left: 55vw;
 }
-@media screen and (min-width: 768px) and (max-width: 1000px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble1-container {
     width: 300px;
     height: 300px;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
   .bubble1-container {
     width: 350px;
     height: 350px;
@@ -468,13 +469,13 @@ a {
   left: 10vw;
   top: 15vh;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble2-container {
     width: 100px;
     height: 100px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .bubble2-container {
     width: 150px;
     height: 150px;
@@ -511,7 +512,7 @@ a {
     height: 120px;
   }
 }
-@media screen and (min-width: 1101px) {
+@media screen and (min-width: 1100px) {
   .bubble3-container {
     width: 180px;
     height: 180px;
@@ -546,7 +547,7 @@ a {
     right: -6vw;
   }
 }
-@media screen and (min-width: 1101px) {
+@media screen and (min-width: 1100px) {
   .bubble4-container {
     width: 180px;
     height: 180px;
@@ -581,7 +582,7 @@ a {
     height: 100px;
   }
 }
-@media screen and (min-width: 1101px) {
+@media screen and (min-width: 1100px) {
   .bubble5-container {
     width: 150px;
     height: 150px;
@@ -643,7 +644,7 @@ a {
     top: 105vh;
   }
 }
-@media screen and (min-width: 1101px) {
+@media screen and (min-width: 1100px) {
   .bubble7-container {
     width: 300px;
     height: 300px;
@@ -682,7 +683,7 @@ a {
     height: 100px;
   }
 }
-@media screen and (min-width: 1101px) {
+@media screen and (min-width: 1100px) {
   .bubble8-container {
     width: 120px;
     height: 120px;
@@ -716,7 +717,7 @@ a {
     height: 100px;
   }
 }
-@media screen and (min-width: 1101px) {
+@media screen and (min-width: 1100px) {
   .bubble9-container {
     width: 150px;
     height: 150px;
@@ -745,13 +746,13 @@ a {
   top: 200vh;
   z-index: -1;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble10-container {
     width: 100px;
     height: 100px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .bubble10-container {
     width: 150px;
     height: 150px;
@@ -781,13 +782,13 @@ a {
   top: 220vh;
   z-index: -1;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble11-container {
     width: 100px;
     height: 100px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .bubble11-container {
     width: 150px;
     height: 150px;
@@ -817,7 +818,7 @@ a {
   top: 257vh;
   z-index: -1;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble12-container {
     width: 100px;
     height: 100px;
@@ -825,7 +826,7 @@ a {
     top: 250vh;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .bubble12-container {
     width: 150px;
     height: 150px;
@@ -854,14 +855,14 @@ a {
   top: 240vh;
   z-index: -1;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble13-container {
     width: 100px;
     height: 100px;
     right: -8vw;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .bubble13-container {
     width: 150px;
     height: 150px;
@@ -890,14 +891,14 @@ a {
   top: 14vh;
   z-index: -1;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble14-container {
     width: 100px;
     height: 100px;
     left: -5vw;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .bubble14-container {
     width: 150px;
     height: 150px;
@@ -926,7 +927,7 @@ a {
   left: 25vw;
   top: 1vh;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble15-container {
     width: 250px;
     height: 250px;
@@ -934,7 +935,7 @@ a {
     top: -5vh;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .bubble15-container {
     width: 300px;
     height: 300px;
@@ -964,7 +965,7 @@ a {
   top: 45vh;
   z-index: -1;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble16-container {
     width: 100px;
     height: 100px;
@@ -972,7 +973,7 @@ a {
     top: 50vh;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .bubble16-container {
     width: 150px;
     height: 150px;
@@ -1001,14 +1002,14 @@ a {
   top: -8vh;
   z-index: -1;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble17-container {
     width: 100px;
     height: 100px;
     top: -12vh;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .bubble17-container {
     width: 150px;
     height: 150px;
@@ -1037,14 +1038,14 @@ a {
   left: 25vw;
   top: 3vh;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble18-container {
     width: 250px;
     height: 250px;
     left: 35vw;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .bubble18-container {
     width: 300px;
     height: 300px;
@@ -1074,14 +1075,14 @@ a {
   top: 12vh;
   z-index: -1;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble19-container {
     width: 100px;
     height: 100px;
     top: 15vh;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .bubble19-container {
     width: 120px;
     height: 120px;
@@ -1111,7 +1112,7 @@ a {
   top: 20vh;
   z-index: -1;
 }
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .bubble20-container {
     width: 100px;
     height: 100px;
@@ -1119,7 +1120,7 @@ a {
     left: -9vw;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1100px) {
   .bubble20-container {
     width: 120px;
     height: 120px;
